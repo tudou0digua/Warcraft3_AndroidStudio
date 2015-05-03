@@ -8,8 +8,12 @@
 3.2进行了多屏幕适配，基本适配所有主流Android机屏幕。  
 3.3自定义了fragmen切换的动画，使页面切换更加流畅、舒服。  
 3.4补充了部分不全以及错误资料
-
-
+  
+操作动图截图：  
+由于模拟器性能不行，运行稍有卡顿，真机运行很流畅。  
+![image](http://ww4.sinaimg.cn/bmiddle/7c6ed26egw1err7e9vi5cg20al0ikhdt.gif)  
+![image](http://ww1.sinaimg.cn/bmiddle/7c6ed26egw1err7ebbvvfg20al0ikwp2.gif)  
+  
   
 界面截图：   
 ![image](http://ww3.sinaimg.cn/bmiddle/7c6ed26egw1err57ympnxj20u01hck5f.jpg)
