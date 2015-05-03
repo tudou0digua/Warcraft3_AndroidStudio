@@ -11,7 +11,7 @@
   
 操作动图截图：  
 由于模拟器性能不行，运行稍有卡顿，真机运行很流畅。  
-![image](http://ww4.sinaimg.cn/bmiddle/7c6ed26egw1err7e9vi5cg20al0ikhdt.gif)  
+![image](http://ww4.sinaimg.cn/bmiddle/7c6ed26egw1err7e9vi5cg20al0ikhdt.gif)
 ![image](http://ww1.sinaimg.cn/bmiddle/7c6ed26egw1err7ebbvvfg20al0ikwp2.gif)  
   
   
