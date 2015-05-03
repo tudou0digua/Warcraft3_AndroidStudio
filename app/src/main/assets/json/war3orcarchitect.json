@@ -1,0 +1,73 @@
+[
+ {
+ "name": "大厅",
+ "imageName":"BTNGreatHall.png",
+
+ "imageName3":"BTNGreatHall3.jpg"
+
+ },
+ 
+ {
+ "name": "要塞",
+ "imageName":"BTNStrongHold.png",
+ "imageName3":"BTNStrongHold3.jpg"
+ 
+ }
+ ,
+ {
+ "name": "堡垒",
+ "imageName":"BTNFortress.png",
+ "imageName3":"BTNFortress3.jpg"
+ 
+ }
+ ,
+ {
+ "name": "兵营",
+ "imageName":"BTNBarracks.png",
+ "imageName3":"BTNBarracks3.jpg"
+ 
+ }, {
+ "name": "战争磨坊",
+ "imageName":"BTNForge.png",
+ "imageName3":"BTNForge3.jpg"
+ 
+ }, {
+ "name": "了望塔",
+ "imageName":"BTNTower.png",
+ "imageName3":"BTNTower3.jpg"
+ 
+ }, {
+ "name": "兽族地洞 ",
+ "imageName":"BTNTrollBurrow.png",
+ "imageName3":"BTNTrollBurrow3.jpg"
+ 
+ }, {
+ "name": "风暴祭坛",
+ "imageName":"BTNAltarOfStorms.png",
+ "imageName3":"BTNAltarOfStorms3.jpg"
+ 
+ }, {
+ "name": "灵魂归宿 ",
+ "imageName":"BTNSpiritLodge.png",
+ "imageName3":"BTNSpiritLodge3.jpg"
+ 
+ }, {
+ "name": "兽栏",
+ "imageName":"BTNBeastiary.png",
+ "imageName3":"BTNBeastiary3.jpg"
+ 
+ }, {
+ "name": "牛头人图腾",
+ "imageName":"BTNTaurenTotem.png",
+ "imageName3":"BTNTaurenTotem3.jpg"
+ 
+ }, {
+ "name": "巫毒商店",
+ "imageName":"BTNWorkshop.png",
+ "imageName3":"BTNWorkshop3.png"
+ 
+ 
+ }
+ 
+ 
+ ]

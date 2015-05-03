@@ -1,0 +1,916 @@
+ [
+  {
+  "name": "小精灵",
+  
+  "description": "小精灵是居住在卡利姆多森林中的远古灵魂,传说它们实际上就是死去的暗夜精灵族的灵魂。小精灵和暗夜精灵族和睦相处.并且为古老的树木服务,它们可以变成各种树木并生长成为有生命的建筑物。",
+
+  
+  
+  "level": "1",
+  "cost": "60G 1F",
+  "unitType": "普通/地面(1)",
+  "attackType": "-",
+  "weaponType": "-",
+  "armonType": "中甲",
+  "armon": "0",
+  "groundAttack": "-",
+  "airAttack": "-",
+  "attackInterval": "-",
+  "life": "120",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "-",
+  "dayView": "100",
+  "nightView": "75(100*)",
+  "speed": "中等(270)",
+  "trainingTime": "14",
+  "trainingPlace": "生命之树",
+  "requirement": "-",
+  "hotKey": "W",
+  "skillstart": "2",
+  
+  "skill": [
+            {
+            "skill": "修理 Renew(自动施放)",
+            "skillimage": "renew.gif",
+            "skilldescription": "小精灵可以修理受损的建筑和机械单位，右键点击可以将修理设定为自动。修理需要花费黄金和木材，如果你的黄金或木材不足，那么你将无法进行修理。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "采集 Gather",
+            "skillimage": "peasantgather.gif",
+            "skilldescription": "点击后出现一个你可以进行建造的建筑列表。 如果你建造的是古树类建筑，那么小精灵将会消失，如果你建造是普通的建筑，那么建筑完成时小精灵依然会存在。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "修建建筑 Build Structure",
+            "skillimage": "createbuilding.gif",
+            "skilldescription": "点击后出现一个你可以进行建造的建筑列表。 如果你建造的是古树类建筑，那么小精灵将会消失，如果你建造是普通的建筑，那么建筑完成时小精灵依然会存在。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "自爆 Detonate",
+            "skillimage": "detonate.gif",
+            "skilldescription": "小精灵会消失掉。不过会消耗掉范围内魔法单位50点魔法，并可以对召唤生物造成225点伤害。",
+            "skilldetail": ""
+            }
+            ],
+  
+  
+  "imageName":"wisp.gif",
+  "imageName3":"wisp3.gif"
+  
+  },
+  {
+  "name": "弓箭手",
+  "description": "弓箭手组成了暗夜精灵族哨兵的第一梯队。这些勇敢的女战士们个个都是神射手，他们在卡力姆多茂密的森林中出没，很少有战士可以匹敌他们闪电般敏捷的身手。和所有女性暗夜精灵一样 ，弓箭手们可以在夜间隐形。",
+
+  
+  
+  "level": "3",
+  "cost": "130G 10L 2F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通",
+  "weaponType": "远程",
+  "armonType": "中甲",
+  "armon": "0(6*)",
+  "groundAttack": "16-18(22-30*)",
+  "airAttack": "16-18(22-30*)",
+  "attackInterval": "1.5",
+  "life": "245",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "50(70*)",
+  "dayView": "140",
+  "nightView": "80(140*)",
+  "speed": "中等(270)",
+  "trainingTime": "20",
+  "trainingPlace": "战争古树",
+  "requirement": "无",
+  "hotKey": "A",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "影遁 Hide",
+            "skillimage": "hide.gif",
+            "skilldescription": "这个技能可以让单位变为隐形，可以用来埋伏在道路上，用以偷袭敌人。当单位作出动作时隐形效果就会立刻消失。在处于隐身状态时，单位会呆在原地，并不会主动攻击附近的敌人。这也是一个用来逃避攻击的好办法。但是，这个技能只能在夜间使用。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "骑乘角鹰兽 Mount Hippogryph",
+            "skillimage": "mounthippogryph.gif",
+            "skilldescription": "学会这个技能后，弓箭手就可以骑在角鹰兽上从空中进行攻击。",
+            "skilldetail": "研究费用:75G 75L 研究地点:风之古树 \n研究时间:30秒 需求:-"
+            },
+            {
+            "skill": "艾鲁尼之优雅 Elune's Grace",
+            "skillimage": "elunesgrace.gif",
+            "skilldescription": "穿刺伤害只对弓箭手造成65%的伤害，魔法攻击只造成80%的伤害。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "硬弓 Improved Bows",
+            "skillimage": "improvedbows.gif",
+            "skilldescription": "将弓箭手的射程增加20。",
+            "skilldetail": "研究费用:50G 100L 研究地点:战争古树 \n研究时间:35秒 需求:远古之树"
+            },
+            {
+            "skill": "射击术 Marksmanship",
+            "skillimage": "marksmanship.gif",
+            "skilldescription": "增加3点弓箭手和角鹰兽骑士的攻击力。",
+            "skilldetail": "研究费用:100G 175L 研究地点:战争古树 \n研究时间:40秒 需求:永恒之树、猎手大厅"
+            }
+            ],
+  
+  
+  "imageName":"archer.gif",
+  "imageName3":"archer3.gif"
+  },
+  {
+  "name": "女猎手",
+  
+  
+  "description": "女猎手是暗夜精灵哨兵部队中的精英。她们从月亮女神艾露尼那里汲取力量，乘着凶猛的黑豹驰骋在战场上。女猎手强壮，灵巧，并且对敢于玷污神圣的白杨谷森林的敌人毫不怜悯。和所有暗夜精灵族的女性一样，女猎手可以在夜晚隐身。",
+
+  
+  
+  "level": "3",
+  "cost": "195G 20L 3F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通",
+  "weaponType": "远程反弹",
+  "armonType": "无甲",
+  "armon": "2(8*)",
+  "groundAttack": "16-18(19-27*)",
+  "airAttack": "16-18(19-27*)",
+  "attackInterval": "1.8",
+  "life": "600",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "22",
+  "dayView": "140",
+  "nightView": "80(140*)",
+  "speed": "快(350)",
+  "trainingTime": "30",
+  "trainingPlace": "战争古树",
+  "requirement": "猎手大厅",
+  "hotKey": "H",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "影遁 Hide",
+            "skillimage": "hide.gif",
+            "skilldescription": "这个技能可以让单位变为隐形，可以用来埋伏在道路上，用以偷袭敌人。当单位作出动作时隐形效果就会立刻消失。在处于隐身状态时，单位会呆在原地，并不会主动攻击附近的敌人。这也是一个用来逃避攻击的好办法。但是，这个技能只能在夜间使用。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "哨兵 Sentinel",
+            "skillimage": "sentinel.gif",
+            "skilldescription": "将一只猫头鹰放到附近的树上，用以提供视野。可以看到那些隐形单位每个女猎手只能施放一次哨兵。如果你的女猎手的哨兵已经放了出去，那么她就不能再在树上施放猫头鹰了。",
+            "skilldetail": "研究费用:100G 100L 研究地点:战争古树 \n研究时间:20秒 需求:猎手大厅，远古之树"
+            },
+            {
+            "skill": "月刃 Moon Glaive (被动技能)",
+            "skillimage": "moonglaive.gif",
+            "skilldescription": "给女猎手的攻击增加一次反弹伤害。",
+            "skilldetail": "研究费用:100G 150L 研究地点:战争古树 \n研究时间:35秒 需求:猎手大厅，永恒之树"
+            }
+            ],
+  
+  
+  "imageName":"huntress.gif",
+  "imageName3":"huntress3.gif"
+  },
+  {
+  "name": "投刃车",
+  
+  "description": "这些迷人的树妖是半神赛纳留斯的女儿。这些顽皮好动的生物非常类似半人马（她们被诅咒的表亲），但她们的体形更适合在森林中居住。他们反应敏捷，并且和森林中的其他生物和睦相处。虽然树妖厌恶不必要的暴力，但在迫不得已的情况下，她们也会以自己的生命保卫卡利姆多大陆。",
+
+  
+  
+  "level": "2",
+  "cost": "210G 65L 3F",
+  "unitType": "机械/地面(2)",
+  "attackType": "攻城",
+  "weaponType": "火炮溅射(火炮溅射直线)",
+  "armonType": "重甲",
+  "armon": "2",
+  "groundAttack": "36-53(39-107*)",
+  "airAttack": "无",
+  "attackInterval": "3.5",
+  "life": "300",
+  "lifeRecovery": "无",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "25-115",
+  "dayView": "140",
+  "nightView": "120(140)",
+  "speed": "慢(220)",
+  "trainingTime": "48",
+  "trainingPlace": "战争古树",
+  "requirement": "猎手大厅",
+  "hotKey": "T",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "穿刺剑刃 Vorpal Blades",
+            "skillimage": "vorpalblades.gif",
+            "skilldescription": "让弩车的攻击可以穿透目标攻击到目标身后的单位，并让弩车可以攻击树木。",
+            "skilldetail": "研究费用:120G 100L 研究地点:战争古树 \n研究时间:60秒 需求:猎手大厅、远古之树"
+            }
+            ],
+  
+  
+  "imageName":"glaivethrower.gif",
+  "imageName3":"glaivethrower3.gif"
+  },
+  {
+  "name": "树妖",
+  
+  
+  "description": "这些迷人的树妖是半神赛纳留斯的女儿。这些顽皮好动的生物非常类似半人马（她们被诅咒的表亲），但她们的体形更适合在森林中居住。他们反应敏捷，并且和森林中的其他生物和睦相处。虽然树妖厌恶不必要的暴力，但在迫不得已的情况下，她们也会以自己的生命保卫卡利姆多大陆。",
+
+  
+  "level": "3",
+  "cost": "145G 60L 4F",
+  "unitType": "普通/地面(1)",
+  "attackType": "穿刺",
+  "weaponType": "远程",
+  "armonType": "无甲",
+  "armon": "0(6*)",
+  "groundAttack": "17-19(20-28*)",
+  "airAttack": "17-19(29-28*)",
+  "attackInterval": "2",
+  "life": "435",
+  "lifeRecovery": "夜晚",
+  "mana": "200",
+  "manaRecovery": "0.75",
+  "attackRange": "50",
+  "dayView": "140",
+  "nightView": "80(140*)",
+  "speed": "快(350)",
+  "trainingTime": "30",
+  "trainingPlace": "知识古树",
+  "requirement": "无",
+  "hotKey": "D",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "慢性毒药 Slow Poison ",
+            "skillimage": "slowpoison.gif",
+            "skilldescription": "在作用的5秒内(对英雄是1秒)，对单位造成每秒4点毒伤害，并减慢移动速度50%和攻击速度25%。",
+            "skilldetail": "持续时间:5(1)秒 使用间隔:无 魔法消耗:- 距离:- 作用范围:1个单位"
+            },
+            {
+            "skill": "驱散魔法 Abolish Magic",
+            "skillimage": "abolishmagic.gif",
+            "skilldescription": "驱散敌方单位身上的有利魔法和我方单位身上的不利魔法，并对召唤单位造成300点伤害。(升级快捷键S)",
+            "skilldetail": "持续时间:立即 使用间隔:1秒\n魔法消耗:50 距离:50 作用范围:1个单位"
+            },
+            {
+            "skill": "魔法免疫 Spell Immunity",
+            "skillimage": "spellimmunity.gif",
+            "skilldescription": "对所有魔法免疫。",
+            "skilldetail": ""
+            }
+            ],
+  
+  
+  "imageName":"dryad.gif",
+  "imageName3":"dryad3.gif"
+  },
+  {
+  "name": "利爪德鲁伊",
+  
+  "description": "这些古老的德鲁依崇拜熊的图腾并且可以使用他的图腾的力量来保卫自己的家园。他们可以变形为巨大凶猛的熊，从而拥有惊人的力量和耐力。他们强大的魔法力量可以在战斗中提高盟军的战斗力和勇气。",
+
+  
+  
+  "level": "4",
+  "cost": "255G 80L 4F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "1，3(9)",
+  "groundAttack": "19-22(21-30),29-44(32-62)",
+  "airAttack": "-",
+  "attackInterval": "1.5",
+  "life": "430(580*)，960",
+  "lifeRecovery": "夜晚",
+  "mana": "200(400*)",
+  "manaRecovery": "0.75",
+  "attackRange": "近战",
+  "dayView": "140",
+  "nightView": "80(140*)",
+  "speed": "中等(270)",
+  "trainingTime": "35",
+  "trainingPlace": "知识古树",
+  "requirement": "无",
+  "hotKey": "C",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "暗夜精灵形态 Night Elf Form",
+            "skillimage": "docdruidform.gif",
+            "skilldescription": "让利爪德鲁依变回暗夜精灵的形态，在这种状态下可以施放魔法并得到更快的法力恢复速度。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "吼叫 Roar",
+            "skillimage": "roar.gif",
+            "skilldescription": "增加周围的友军25%的攻击力。",
+            "skilldetail": "持续时间:45秒 使用间隔:- \n魔法消耗:100 距离:- 作用范围:50"
+            },
+            {
+            "skill": "返老还童 Rejuvenation",
+            "skillimage": "rejuvenation.gif",
+            "skilldescription": "12秒内恢复友军一个单位400点生命。",
+            "skilldetail": "持续时间:12秒 使用间隔:- \n魔法消耗:125 距离:40 作用范围:一个单位"
+            },
+            {
+            "skill": "熊形态 Bear Form",
+            "skillimage": "bearform.gif",
+            "skilldescription": "让利爪德鲁依变身成熊，魔法恢复速度变慢，但是护甲值增加，生命值增加，不能使用魔法，但可以使用吼叫。",
+            "skilldetail": "魔法消耗:25"
+            },
+            {
+            "skill": "专家级利爪德鲁依训练 DOCAT",
+            "skillimage": "docadepttraining.gif",
+            "skilldescription": "增加利爪徳鲁依100点魔法，魔法恢复速度加快25%，生命增加75，增加攻击力，并可以使用返老还童技能。",
+            "skilldetail": "研究费用:100G 50L 研究地点:知识古树 \n研究时间:25秒 需求:-"
+            },
+            {
+            "skill": "大师级利爪徳鲁依训练 Druid of Claw Master Training",
+            "skillimage": "docmastertraining.gif",
+            "skilldescription": "再增加利爪徳鲁依100点魔法，魔法恢复速度加快25%，生命增加75，增加攻击力，并可以使用熊形态技能。",
+            "skilldetail": "研究费用:100G 150L 研究地点:知识古树 \n研究时间:35秒 需求:永恒之树"
+            },
+            {
+            "skill": "利爪之痕 Mark of the Claw",
+            "skillimage": "enchantedbears.gif",
+            "skilldescription": "让熊形态的利爪徳鲁依可以使用吼叫。",
+            "skilldetail": "研究费用:25G 100L 研究地点:知识古树 \n研究时间:20秒 需求:-"
+            }
+            ],
+  
+  
+  "imageName":"druidclaw.gif",
+  "imageName3":"druidclaw3.gif"
+  },
+  {
+  "name": "山岭巨人",
+  
+  "description": "这些身材魁梧的巨人，是在数个世纪前由泰坦所创造出来的。它们生性安静但是具有强壮的身体，并安逸的于大自然融为一体。不过战争带来的悲哀将它们从森林深处唤醒，并义无反顾的加入战斗，努力的保护着大自然。现在，山岭巨人依然加入暗夜精灵的部队，利用自己强壮的身体和勇气誓将入侵的燃烧军团赶出这个世界。",
+
+  
+  
+  "level": "6",
+  "cost": "425G 100L 7F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通/攻城",
+  "weaponType": "普通/普通",
+  "armonType": "中甲",
+  "armon": "4(10*)",
+  "groundAttack": "28-40(31-61*)",
+  "airAttack": "34-48(37-72*)",
+  "attackInterval": "2.5",
+  "life": "1600",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "12.8/25",
+  "dayView": "120",
+  "nightView": "80(120*)",
+  "speed": "中等(270)",
+  "trainingTime": "45",
+  "trainingPlace": "知识古树",
+  "requirement": "奇迹古树",
+  "hotKey": "G",
+  
+  "skillstart": "2",
+
+  "skill": [
+            {
+            "skill": "嘲讽 Taunt",
+            "skillimage": "taunt.gif",
+            "skilldescription": "让附近的敌人都去攻击使用这个技能的单位。",
+            "skilldetail": "持续时间:立即 使用间隔:15秒 魔法消耗:-\n距离:- 作用范围:45"
+            },
+            {
+            "skill": "战棍 War Club",
+            "skillimage": "warclub.gif",
+            "skilldescription": "拔起一棵树让山岭巨人可以造成攻城伤害，并少量增加射程。可以攻击15次。",
+            "skilldetail": "持续时间:攻击15次"
+            },
+            {
+            "skill": "硬化皮肤 Hardened Skin (被动技能)",
+            "skillimage": "hardenedskin.gif",
+            "skilldescription": "让山岭巨人在被攻击时所受到伤害减少12点，不过敌人的攻击最少会造成3点伤害。换句话说，最好使用高级部队例如说牛头人，骑士，熊和憎恶来对抗它们。",
+            "skilldetail": "研究费用:100G 175L 研究地点:知识古树 \n研究时间:40秒 需求:永恒之树，奇迹古树"
+            },
+            {
+            "skill": "抗性皮肤 Resistant Skin",
+            "skillimage": "resistantskin2.gif",
+            "skilldescription": "增加山岭巨人对魔法的抵抗力。让它具有和英雄一样的魔法抗性。负面魔法对其作用时间变短，并且变形术，吞噬和占据对其无效。 但是它不同于英雄护甲，它不能降低伤害。。",
+            "skilldetail": "研究费用:50G 100L 研究地点:知识古树 \n研究时间:75秒 需求:永恒之树,奇迹古树"
+            }
+            ],
+  "imageName":"mountaingiant.jpg",
+  "imageName3":"mountaingiant3.gif"
+
+  
+  },
+  {
+  "name": "角鹰兽",
+  
+  "description": "角鹰兽是古老的魔法野兽，它们的身体既象禽又象雄鹿。可以在卡利姆多的天空中自由翱翔并攻击他们遇到的任何破坏大自然平衡的敌人。角鹰兽和暗夜精灵结成了同盟，因为暗夜精灵族的神赛纳留斯是大自然和所有生物的保护神。",
+
+  
+  "level": "2",
+  "cost": "160G 20L 2F",
+  "unitType": "普通/空中",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "无甲",
+  "armon": "0(6*)",
+  "groundAttack": "无",
+  "airAttack": "50-57(53-81*)",
+  "attackInterval": "1.05",
+  "life": "525",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "无",
+  "attackRange": "近战",
+  "dayView": "160",
+  "nightView": "80(160*)",
+  "speed": "非常快(400)",
+  "trainingTime": "40",
+  "trainingPlace": "风之古树",
+  "requirement": "无",
+  "hotKey": "H",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "搭载弓箭手 Pick up Archer",
+            "skillimage": "mounthippogryph.gif",
+            "skilldescription": "学会这个技能后，弓箭手就可以骑在角鹰兽上从空中进行攻击。(升级快捷键I)",
+            "skilldetail": "研究费用:75G 75L 研究地点:风之古树 \n研究时间:30 秒 需求:-"
+            }
+            ],
+  
+  
+  "imageName":"hippogryph.gif",
+  "imageName3":"hippogryph3.gif"
+  },
+  {
+  "name": "角鹰兽骑士",
+  "description": "在战斗进入白热化阶段时,暗夜精灵弓箭手可以召唤强大的角鹰兽将她们带上空中。弓箭手骑在角鹰兽上射击，而勇敢的角鹰兽完全听从弓箭手的指挥。",
+
+  
+  
+  "level": "4",
+  "cost": "4F",
+  "unitType": "普通/空中",
+  "attackType": "穿刺",
+  "weaponType": "远程",
+  "armonType": "轻甲",
+  "armon": "1(7*)",
+  "groundAttack": "16-18(22-30*)",
+  "airAttack": "16-18(22-30*)",
+  "attackInterval": "1.1",
+  "life": "765",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "40(60*)",
+  "dayView": "160",
+  "nightView": "80(160*)",
+  "speed": "快(350)",
+  "trainingTime": "400",
+  "trainingPlace": "风之古树",
+  "requirement": "无",
+  "hotKey": "-",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "分离弓箭手和角鹰兽 Decouple Archer & Hippogryph",
+            "skillimage": "mounthippogryph.gif",
+            "skilldescription": "让弓箭手从角鹰兽身上下来，并分别进行攻击。",
+            "skilldetail": "研究费用:75G 75L 研究地点:风之古树 \n研究时间:30 秒 需求:-"
+            },
+            {
+            "skill": "硬弓 Improved Bows",
+            "skillimage": "improvedbows.gif",
+            "skilldescription": "将弓箭手的射程增加20。",
+            "skilldetail": "研究费用:50G 100L 研究地点:战争古树 \n研究时间:35秒 需求:远古之树"
+            },
+            {
+            "skill": "射击术 Marksmanship",
+            "skillimage": "marksmanship.gif",
+            "skilldescription": "增加3点弓箭手和角鹰兽骑士的攻击力。",
+            "skilldetail": "研究费用:100G 175L 研究地点:战争古树 \n研究时间:40秒 需求:永恒之树、猎手大厅"
+            }
+            ],
+  
+  
+  "imageName":"hippogryphrider.gif",
+  "imageName3":"hippogryphrider3.gif"
+  },
+  {
+  "name": "猛禽德鲁伊",
+  
+  
+  "description": "行踪隐秘的猛禽德鲁依崇拜乌鸦的图腾，他们在暗夜精灵社会中的主要职责是收集情报和研究。猛禽德鲁依拥有变身成乌鸦的能力。可以在战场上进行侦察和传递情报。他们可以召唤风的力量同卡利姆多的敌人作战。",
+
+  
+  
+  "level": "2",
+  "cost": "135G 20L 2F",
+  "unitType": "普通/地面(1)，普通，空中",
+  "attackType": "魔法",
+  "weaponType": "远程",
+  "armonType": "无甲",
+  "armon": "0，0(6)",
+  "groundAttack": "11-13，无",
+  "airAttack": "无，35-41(38-62*)",
+  "attackInterval": "1.6，1，75",
+  "life": "300(380*)，340(380*)",
+  "lifeRecovery": "夜晚",
+  "mana": "300(400*)",
+  "manaRecovery": "0.75(1*)",
+  "attackRange": "60，60",
+  "dayView": "140，160",
+  "nightView": "80(140*)，80(160*)",
+  "speed": "中等(270)，快(320)",
+  "trainingTime": "35",
+  "trainingPlace": "风之古树",
+  "requirement": "无",
+  "hotKey": "T",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "暗夜精灵形态 Night Elf Form",
+            "skillimage": "dotdruidform.gif",
+            "skilldescription": "让猛禽德鲁依变回暗夜精灵的形态，在这种状态下可以施放魔法并得到更快的法力恢复速度。",
+            "skilldetail": "持续时间:- 使用间隔:- \n魔法消耗:50"
+            },
+            {
+            "skill": "精灵之火 Faerie Fire",
+            "skillimage": "faeriefire.gif",
+            "skilldescription": "减少敌方一个单位4点护甲值，并分享该单位的视野。",
+            "skilldetail": "持续时间:120(60)秒 使用间隔:1秒 \n魔法消耗:45 距离:70 作用范围:一个单位"
+            },
+            {
+            "skill": "飓风 Cyclone",
+            "skillimage": "cyclone.gif",
+            "skilldescription": "将一个敌方单位吹向空中，这个单位将不能移动或攻击和施法，并打断之前的行动，例如说攻击或施法。",
+            "skilldetail": "持续时间:20(6)秒 使用间隔:5秒\n魔法消耗:150 距离:60 作用范围:一个单位"
+            },
+            {
+            "skill": "风暴乌鸦 Crow Form",
+            "skillimage": "crowform.gif",
+            "skilldescription": "猛禽德鲁依变身成风暴乌鸦，让他们可以飞行。在你研究了猛禽之痕之前，风爆乌鸦无法施放魔法。",
+            "skilldetail": "魔法消耗:50"
+            },
+            {
+            "skill": "专家级训练Druid of Talon Master Training",
+            "skillimage": "dotadepttraining.gif",
+            "skilldescription": "增加猛禽徳鲁依100点魔法，魔法恢复速度加快30%，生命增加40，并可以变身成风暴乌鸦。",
+            "skilldetail": "研究费用:100G 50L 研究地点:风之古树 \n研究时间:60秒 需求:-"
+            },
+            {
+            "skill": "大师级猛禽徳鲁依训练 Druid of Talon Master Training",
+            "skillimage": "dotmastertraining.gif",
+            "skilldescription": "再增加猛禽徳鲁依100点魔法，魔法恢复速度加快30%，生命增加40，并可以使用飓风。",
+            "skilldetail": "研究费用:100G 150L 研究地点:风之古树 \n研究时间:60秒 需求:永恒之树"
+            },
+            {
+            "skill": "猛禽之痕 Mark of the Crow",
+            "skillimage": "enchantedcrows.gif",
+            "skilldescription": "让猛禽德鲁依在风暴乌鸦形态时也可以施放精灵之火。",
+            "skilldetail": "研究费用:25G 100L 研究地点:风之古树 \n研究时间:60秒 需求:大师级猛禽徳鲁依训练"
+            }
+            ],
+  
+  
+  "imageName":"druidtalon.gif",
+  "imageName3":"druidtalon3.gif"
+  },
+  {
+  "name": "精灵龙",
+  
+  "description": "快速的小型飞行单位，可以有效的克制魔法单位。虽然不是真正的龙，但是这些貌似的神秘生物具有翡翠梦境的伟大魔法力量。",
+
+  
+  "level": "3",
+  "cost": "155G 25L 2F",
+  "unitType": "普通/空中",
+  "attackType": "穿刺",
+  "weaponType": "远程",
+  "armonType": "轻甲",
+  "armon": "0(6*)",
+  "groundAttack": "14-16(17-25*)",
+  "airAttack": "14-16(17-25*)",
+  "attackInterval": "1.75",
+  "life": "450",
+  "lifeRecovery": "夜晚",
+  "mana": "200",
+  "manaRecovery": "0.75",
+  "attackRange": "30",
+  "dayView": "160",
+  "nightView": "80(160*)",
+  "speed": "快(350)",
+  "trainingTime": "25",
+  "trainingPlace": "风之古树",
+  "requirement": "奇迹",
+  "hotKey": "F",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "变相移动 Phase Shift",
+            "skillimage": "phaseshift.gif",
+            "skilldescription": "使这个单位一旦受到攻击就会从现实中移出。当这个技能发动时，精灵龙无法移动，攻击施法，同时也不会被攻击。这个技能可设置为自动施放。",
+            "skilldetail": "持续时间:1.5秒 使用间隔:6.5秒 魔法消耗:20\n距离:- 作用范围:20 使用目标:自己"
+            },
+            {
+            "skill": "魔法闪耀 Mana Flare",
+            "skillimage": "manaflare.gif",
+            "skilldescription": "让精灵龙对那些正在施法的单位造成伤害，并增加护甲值12点。",
+            "skilldetail": "持续时间:30秒 使用间隔:20秒\n魔法消耗:50 距离:- 作用范围:75"
+            },
+            {
+            "skill": "魔法免疫 Spell Immunity",
+            "skillimage": "spellimmunity.gif",
+            "skilldescription": "对所有魔法免疫。",
+            "skilldetail": ""
+            }
+            ],
+  
+  
+  "imageName":"faeriedragon.gif",
+  "imageName3":"faeriedragon3.gif"
+  },
+  {
+  "name": "奇美拉",
+  
+  
+  "description": "来自灰谷的奇美拉是和暗夜精灵族和睦相处的神秘野兽。这些可怕的双头怪物在黑暗森林的上空盘旋，用致命的喷吐来对付一切侵犯圣洁的卡利姆多大陆的敌人。",
+
+  
+  
+  "level": "4",
+  "cost": "330G 70L 5F",
+  "unitType": "普通/空中",
+  "attackType": "魔法/攻城",
+  "weaponType": "远程溅射/远程",
+  "armonType": "轻甲",
+  "armon": "2(8*)",
+  "groundAttack": "67-83(70-134)/45-55(48-88)",
+  "airAttack": "无",
+  "attackInterval": "2.5",
+  "life": "1000",
+  "lifeRecovery": "夜晚",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "45/85",
+  "dayView": "160",
+  "nightView": "80(160*)",
+  "speed": "中等(250)",
+  "trainingTime": "60",
+  "trainingPlace": "奇美拉栖木",
+  "requirement": "无",
+  "hotKey": "C",
+  "skillstart": "2",
+  
+  
+  "skill": [
+
+            {
+            "skill": "腐蚀喷吐 Corrosive Breath",
+            "skillimage": "corrosivebreath.gif",
+            "skilldescription": "让奇美拉在攻击敌人建筑的时候，喷出一股腐蚀性的酸液，来更快的摧毁建筑物。",
+            "skilldetail": "研究费用:125G 225L 研究地点:奇美拉栖木 \n研究时间:40秒 需求:无"
+            }
+            ],
+  
+  
+  "imageName":"chimaera.gif",
+  "imageName3":"chimaera3.gif"
+  }
+  
+  ,
+  {
+  "name": "树人",
+  
+  "description": "他们是丛林守护者用自然之力制造出来的，他们会在一段时间后消失。",
+  
+  
+  
+  "level": "2",
+  "cost": "-",
+  "unitType": "召唤",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "0(5*)",
+  "groundAttack": "15-17",
+  "airAttack": "无",
+  "attackInterval": "1.75",
+  "life": "300",
+  "lifeRecovery": "无",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "近战",
+  "dayView": "120",
+  "nightView": "120(140)",
+  "speed": "220(270*)",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "丛林守护者",
+  "hotKey": "F",
+  "skillstart": "2",
+  
+  
+  "skill": [
+  
+            ],
+  
+  
+  "imageName":"treant.gif",
+  "imageName3":"treant3.gif"
+  }
+  
+  ,
+  {
+  "name": "猫头鹰",
+  
+  "description": "月之女祭司召唤出的猫头鹰，可以用来侦察整个地图。",
+  
+  
+  
+  "level": "-",
+  "cost": "-",
+  "unitType": "召唤",
+  "attackType": "无",
+  "weaponType": "无",
+  "armonType": "无敌",
+  "armon": "无敌",
+  "groundAttack": "无",
+  "airAttack": "无",
+  "attackInterval": "无",
+  "life": "40",
+  "lifeRecovery": "-",
+  "mana": "-",
+  "manaRecovery": "-",
+  "attackRange": "-",
+  "dayView": "100/150/220",
+  "nightView": "100/150/220",
+  "speed": "270/350/450",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "月之女祭司",
+  "hotKey": "T",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "真实视域 True Sight",
+            "skillimage": "truesight.gif",
+            "skilldescription": "可以发现附近的隐形单位。",
+            "skilldetail": ""
+            }
+            ],
+  
+  
+  "imageName":"truesight.gif",
+  "imageName3":"owlscout3.gif"
+  }
+  
+  
+  ,
+  {
+  "name": "复仇天神",
+  
+  "description": "复仇天神是由守望者召唤的。在一段时间后，复仇天神会自动消失。",
+  
+  
+  
+  "level": "2",
+  "cost": "210G 65L 3F",
+  "unitType": "机械/地面(2)",
+  "attackType": "攻城",
+  "weaponType": "火炮溅射(火炮溅射直线)",
+  "armonType": "重甲",
+  "armon": "2",
+  "groundAttack": "36-53(39-107*)",
+  "airAttack": "无",
+  "attackInterval": "3.5",
+  "life": "300",
+  "lifeRecovery": "无",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "25-115",
+  "dayView": "140",
+  "nightView": "120(140)",
+  "speed": "慢(220)",
+  "trainingTime": "48",
+  "trainingPlace": "战争古树",
+  "requirement": "猎手大厅",
+  "hotKey": "T",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+              "skill": "复仇之魂 Spirit of Vengeanc(自动施放)",
+              "skillimage": "vengeance.gif",
+              "skilldescription": "让从地面的尸体上召唤灵魂来进行攻击，可以存在50秒，或者复仇天神消失。最多6个。",
+              "skilldetail": "持续时间:50秒 使用间隔:2秒 魔法消耗:25\r距离:90 作用范围:- 使用目标:尸体"
+            },
+            {
+              "skill": "魔法免疫 Spell Immunity",
+              "skillimage": "genericspellimmunity.gif",
+              "skilldescription": "对负面魔法免疫。",
+              "skilldetail": ""
+            },
+            {
+              "skill": "抗性皮肤 Resistant Skin",
+              "skillimage": "resistantskin.gif",
+              "skilldescription": "减少负面魔法持续时间，并对某些魔法免疫",
+              "skilldetail": ""
+            }
+            ],
+  
+  
+  "imageName":"spiritofvengeance.gif",
+  "imageName3":"avatarofvengeance3.gif"
+  }
+  
+  
+  ,
+  {
+  "name": "复仇之魂",
+  
+  "description": "复仇之魂是由守望者召唤的复仇天神创造的。复仇之魂无法被攻击，并只能存在50秒。或者当复仇天神消失时它们也会消失。",
+  
+  
+  
+  "level": "2",
+  "cost": "210G 65L 3F",
+  "unitType": "机械/地面(2)",
+  "attackType": "攻城",
+  "weaponType": "火炮溅射(火炮溅射直线)",
+  "armonType": "重甲",
+  "armon": "2",
+  "groundAttack": "36-53(39-107*)",
+  "airAttack": "无",
+  "attackInterval": "3.5",
+  "life": "300",
+  "lifeRecovery": "无",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "25-115",
+  "dayView": "140",
+  "nightView": "120(140)",
+  "speed": "慢(220)",
+  "trainingTime": "48",
+  "trainingPlace": "战争古树",
+  "requirement": "猎手大厅",
+  "hotKey": "T",
+  "skillstart": "2",
+  
+  
+  "skill": [
+
+            ],
+  
+  
+  "imageName":"vengeance.gif",
+  "imageName3":"spiritofvengeance3.gif"
+  }
+  
+  
+  ]

@@ -1,0 +1,88 @@
+
+[
+ {
+ "name": "大墓地",
+ "imageName":"BTNNecropolis.png",
+ "imageName3":"BTNNecropolis3.jpg"
+
+ },
+ {
+ "name": "亡者大厅",
+ "imageName":"BTNHallOfTheDead.png",
+ "imageName3":"BTNHallOfTheDead3.jpg"
+
+ }, {
+ "name": "黑色城堡",
+ "imageName":"BTNBlackCitadel.png",
+ "imageName3":"BTNBlackCitadel3.jpg"
+
+ }, {
+ "name": "地穴",
+ "imageName":"BTNCrypt.png",
+ "imageName3":"BTNCrypt3.jpg"
+
+ }, {
+ "name": "闹鬼金矿",
+ "imageName":"BTNGoldmine.png",
+ "imageName3":"BTNGoldmine3.jpg"
+
+ }, {
+ "name": "坟场",
+ "imageName":"BTNGraveYard.png",
+ "imageName3":"BTNGraveYard3.jpg"
+
+ }, {
+ "name": "通灵塔",
+ "imageName":"BTNZiggurat.png",
+ "imageName3":"BTNZiggurat3.jpg"
+
+ }, {
+ "name": "幽魂之塔",
+ "imageName":"BTNZigguratUpgrade.png",
+ "imageName3":"BTNZigguratUpgrade3.jpg"
+
+ }, {
+ "name": "蜘蛛怪塔",
+ "imageName":"BTNZigguratUpgrade.png",
+ "imageName3":"BTNZigguratUpgrade3.jpg"
+
+ }, {
+ "name": "黑暗祭坛",
+ "imageName":"BTNAltarOfDarkness.png",
+ "imageName3":"BTNAltarOfDarkness3.jpg"
+
+ 
+ }
+ , {
+ "name": "诅咒神庙",
+ "imageName":"BTNTempleOfTheDamned.png",
+ "imageName3":"BTNTempleOfTheDamned3.jpg"
+
+ }
+ , {
+ "name": "屠宰场",
+ "imageName":"BTNSlaughterHouse.png",
+ "imageName3":"BTNSlaughterHouse3.jpg"
+ 
+ }
+ , {
+ "name": "牺牲深渊",
+ "imageName":"BTNSacrificialPit.png",
+ "imageName3":"BTNSacrificialPit3.jpg"
+ 
+ }
+ , {
+ "name": "埋骨地",
+ "imageName":"BTNBoneYard.png",
+ "imageName3":"BTNBoneYard3.jpg"
+
+ }
+ ,
+ {
+ "name": "古墓废墟",
+ "imageName":"arcanevault.gif",
+ "imageName3":"arcanevault3.gif"
+
+ }
+ 
+ ]

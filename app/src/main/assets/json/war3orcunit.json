@@ -1,0 +1,842 @@
+[
+{
+    "name":"苦工",
+ "description": "苦工在兽人大军中的地位是最低的。由于他们对作战等重要技能一窍不通，只能来做诸如采伐木材、挖掘金矿等等下贱的工作。同时他们也负责建造和维修兽人大军所需的各种建筑物，他们夜以继日地工作以求能取悦他们的主人。 ",
+
+    "level": "1",
+    "cost": "75G 1F",
+    "unitType": "普通/地面(1)",
+    "attackType": "普通",
+    "weaponType": "普通",
+    "armonType": "中甲",
+    "armon": "0",
+    "groundAttack": "7-8",
+    "airAttack": "无",
+    "attackInterval": "3",
+    "life": "250",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "近战",
+    "dayView": "80",
+    "nightView": "60",
+    "speed": "慢(190)",
+    "trainingTime": "15",
+    "trainingPlace": "大厅",
+    "requirement": "-",
+    "hotKey": "P",
+ "imageName": "peon.gif",
+ "imageName3": "peon3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "修理 Repair(自动施放)",
+           "skillimage": "repair.gif",
+           "skilldescription": "农民可以修理受损的建筑和机械单，右键点击可以将修理设定为自动。",
+           "skilldetail": ""
+           },
+           {
+           "skill": "采集 Gather",
+           "skillimage": "peasantgather.gif",
+           "skilldescription": "从金矿采集黄金或者砍树来获得木材，右键点击金矿或木材。4个农民一分钟采金480，5个一分钟采金580。",
+           "skilldetail": ""
+           },
+           {
+           "skill": "运送资源 Return Resources",
+           "skillimage": "peasantreturngoods.gif",
+           "skilldescription": "将收集到的资源送会城市大厅。在采集足够资源后，这个命令会自动执行。",
+           "skilldetail": ""
+           
+           },
+           {
+           "skill": "修建建筑 Build Structure",
+           "skillimage": "peasantbuild.gif",
+           "skilldescription": "点击后出现一个你可以进行建造的建筑列表。",
+           "skilldetail": ""
+           
+           },
+           {
+           "skill": "掠夺 Pillage",
+           "skillimage": "pillage.gif",
+           "skilldescription": "每次攻击建筑物时不仅造成伤害，而且还可以掠夺资源。这是一个被动技能。如果你毁掉了那个建筑，那么就可以掠夺回那个建筑造价的 50%。",
+           "skilldetail": "研究费用:75G 25L 研究地点:大厅/要塞/兵营 \n研究时间:60秒 需求:无"
+           
+           }
+           ]
+},
+
+{
+    "name":"兽族步兵",
+    "level": "3",
+ 
+ "description": "兽族步兵是兽人大军的前锋和中坚力量。兽族步兵以他们的邪恶和野蛮著称。过去兽族步兵展现了他们的堕落和野蛮。但现在，在萨尔的领导下，兽族步兵开始回归他们崇高的传统。 ",
+
+ 
+    "cost": "200G 1F",
+    "unitType": "普通/地面(1)",
+    "attackType": "普通",
+    "weaponType": "普通",
+    "armonType": "重甲",
+    "armon": "1(7*)",
+    "groundAttack": "18-21(24-36*)",
+    "airAttack": "无",
+    "attackInterval": "1.6",
+    "life": "700(800)",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "近战",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "-",
+    "trainingPlace": "-",
+    "requirement": "-",
+    "hotKey": "G",
+ 
+ "imageName": "grunt.gif",
+ "imageName3": "grunt3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "掠夺 Pillage (被动技能)",
+           "skillimage": "pillage.gif",
+           "skilldescription": "每次攻击建筑物时不仅造成伤害，而且还可以掠夺资源。这是一个被动技能。如果你毁掉了那个建筑，那么就可以掠夺回那个建筑造价的 50%。",
+           "skilldetail": "研究费用:75G 25L 研究地点:大厅/要塞/兵营 \n研究时间:60秒 需求:无"
+           }
+           ]
+ },
+
+ {
+    "name":"巨魔猎头者",
+ 
+ "description": "生长在洛丹伦大陆北方的野蛮巨魔又一次加入了兽人大军。这些狡猾的战士生来就是为了猎杀、追踪和诱捕野外最危险的猛兽，但是在战争时期，巨魔 猎头者毫不犹豫地拿起他们的长矛为兽人大军而战。他们的武器是一柄尖利的长矛，可以用来向敌人投掷，在部落中，他们是唯一一个不使用魔法而具有远程攻击力的兵种，能够在远方准确击中目标的巨魔猎头者无疑能够给其他兽人战士提供绝佳的火力支援。",
+
+ 
+ 
+    "level": "2",
+    "cost": "135G 20L 2F",
+    "unitType": "普通/地面(1)",
+    "attackType": "穿刺",
+    "weaponType": "远程",
+    "armonType": "重甲",
+    "armon": "0(6*)",
+    "groundAttack": "23-27(26-42*)",
+    "airAttack": "23-27(26-42*)",
+    "attackInterval": "2.31",
+    "life": "350",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "近战",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "20",
+    "trainingPlace": "兵营",
+    "requirement": "战争磨坊",
+ "hotKey": "T",
+ "imageName": "headhunter.gif",
+ "imageName3": "headhunter3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "升级狂战士 Berserker Upgrade",
+           "skillimage": "berserker.gif",
+           "skilldescription": "使巨魔猎头者变成巨魔狂暴战士",
+           "skilldetail": "研究费用:75G 175L 研究地点:兵营 \n研究时间:40秒 需求:堡垒,战争磨坊"
+           },
+           {
+           "skill": "巨魔再生 Troll Regeneration",
+           "skillimage": "trollregeneration.gif",
+           "skilldescription": "增加巨魔猎头者，巨魔狂暴战士，巨魔巫医，巨魔蝙蝠骑士的生命恢复速度，从0.25到1.50。",
+           "skilldetail": "研究费用:100G 100L 研究地点:兵营 \n研究时间:35秒 需求:战争磨坊,要塞"
+           }
+           ]
+},
+
+{
+    "name":"巨魔狂暴战士",
+ 
+ "description": "巨魔猎头者现在可以升级为巨魔狂暴战士，因此变得更加强壮，并且拥有狂暴的技能。同巨魔猎头者一样，巨魔狂暴战士可以从巨魔再生中获益。",
+
+ 
+ 
+    "level": "3",
+    "cost": "135G 20L 2F",
+    "unitType": "普通/地面(1)",
+    "attackType": "穿刺",
+    "weaponType": "远程",
+    "armonType": "中甲",
+    "armon": "0(6*)",
+    "groundAttack": "23-27(26-42*)",
+    "airAttack": "23-27(26-42*)",
+    "attackInterval": "2.31",
+    "life": "450",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "45",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "22",
+    "trainingPlace": "兵营",
+    "requirement": "战争磨坊",
+ "hotKey": "T",
+ "imageName": "berserker.gif",
+ "imageName3": "berserker3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "狂暴 Berserk",
+           "skillimage": "berserkfortrolls.gif",
+           "skilldescription": "增加50%的攻击速度，但受到50%的额外伤害。",
+           "skilldetail": "持续时间:12秒 使用间隔:30秒 \n魔法消耗:无 距离:- 作用目标:自己"
+           
+           },
+           {
+           "skill": "巨魔再生 Troll Regeneration ",
+           "skillimage": "trollregeneration.gif",
+           "skilldescription": "增加巨魔猎头者，巨魔狂暴战士，巨魔巫医，巨魔蝙蝠骑士的生命恢复速度，从0.25到1.50。",
+           "skilldetail": "研究费用:100G 100L 研究地点:兵营 \n研究时间:35秒 需求:战争磨坊,要塞"
+           }
+           ]
+},
+
+{
+    "name":"粉碎者",
+ 
+ "description": "投石车永远是一笔重要的资产。投石车能从很远的距离发射火弹，是大批的军团的噩梦。虽然投石车需要一些人来控制，但是其仍然当之无愧的是最有威力的攻城武器。 ",
+
+ 
+ 
+    "level": "2",
+    "cost": "220G 50L 4F",
+    "unitType": "机械/地面(2)",
+    "attackType": "攻城",
+    "weaponType": "火炮溅射",
+    "armonType": "重甲",
+    "armon": "2(8*)",
+    "groundAttack": "72-89(75-143*)",
+    "airAttack": "无",
+    "attackInterval": "4.5",
+    "life": "425",
+    "lifeRecovery": "无",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "25-115",
+    "dayView": "140",
+    "nightView": "120",
+    "speed": "慢(220)",
+    "trainingTime": "40",
+    "trainingPlace": "兵营",
+    "requirement": "战争磨坊，要塞",
+ "hotKey": "D",
+ "imageName": "demolisher.gif",
+ "imageName3": "demolisher3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "燃烧汽油 Burning Oil (被动技能)",
+           "skillimage": "naphtha.gif",
+           "skilldescription": "用凝固汽油浇在粉碎者的弹药上，使它们能够点燃地面，烧伤敌人。",
+           "skilldetail": "研究费用:750G 150L 研究地点:兵营 \n研究时间:30秒 需求:堡垒"
+           }
+           ]
+
+},
+
+{
+    "name":"萨满祭司",
+ 
+ "description": "在萨尔的领导下，兽人回归了他们古老的信奉萨满教的传统。为了使兽人部落彻底摒弃邪恶和野蛮，萨尔禁止兽人使用法师魔法和亡灵巫术。现在，所有的兽人魔法使用者都在练习使用萨满魔法，从大自然及其元素中汲取无穷无尽的力量。",
+
+ 
+ 
+    "level": "2",
+    "cost": "130G 20L 2F",
+    "unitType": "普通/地面(1)",
+    "attackType": "魔法",
+    "weaponType": "远程",
+    "armonType": "无甲",
+    "armon": "0",
+    "groundAttack": "8-9",
+    "airAttack": "8-9",
+    "attackInterval": "2.1",
+    "life": "335(415*)",
+    "lifeRecovery": "总是",
+    "mana": "200(400*)",
+    "manaRecovery": "0.667(1.167*)",
+    "attackRange": "60",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "30",
+    "trainingPlace": "灵魂归宿",
+    "requirement": "无",
+ "hotKey": "S",
+ "imageName": "shaman.gif",
+ "imageName3": "shaman3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "净化 Purge",
+           "skillimage": "purge.gif",
+           "skilldescription": "驱散目标身上所有魔法，敌方会被固定住，持续3秒，并且移动速度会以5的一个因子值被减慢，他们的速度会在15秒内恢复。对召唤单位造成400点伤害，净化不会减慢友军的速度",
+           "skilldetail": "持续时间:15(5)秒 使用间隔:1秒 \n魔法消耗:75 距离:70 作用范围:一个单位"
+           },
+           {
+           "skill": "闪电盾牌 Lightning Shield",
+           "skillimage": "lightningshield.gif",
+           "skilldescription": "使目标身上形成闪电护盾，在20秒内对其周围的敌人造成每秒20点的伤害。",
+           "skilldetail": "持续时间:20秒 使用间隔:- \n魔法消耗:100 距离:60 作用范围:一个单位"
+           },
+           {
+           "skill": "嗜血术 Bloodlust (自动施放)",
+           "skillimage": "bloodlust.gif",
+           "skilldescription": "在咒语持续时间里，目标单位的攻击速度提升40%，移动速度提升25%。",
+           "skilldetail": "持续时间:60秒 使用间隔:1秒 \n魔法消耗:40 距离:60 作用范围:一个单位"
+           
+           },
+           {
+           "skill": "专家级萨满训练 Shaman Adept Training",
+           "skillimage": "shamanadept.gif",
+           "skilldescription": "提高萨满祭司100点魔法值，魔法恢复速度+30%，生命值+40，允许施放闪电盾牌。",
+           "skilldetail": "研究费用:100G 100L 研究地点:兵营 \n研究时间:35秒 需求:战争磨坊,要塞"
+           
+           },
+           {
+           "skill": "大师级萨满训练 Shaman Master Training",
+           "skillimage": "shamanmaster.gif",
+           "skilldescription": "进一步提高萨满祭司100点魔法值，魔法恢复速度+30%，生命值+40，允许施放嗜血术。",
+           "skilldetail": "研究费用:100G 100L 研究地点:兵营 \n研究时间:35秒 需求:战争磨坊,要塞"
+           
+           }
+           ]
+
+},
+
+
+
+{
+    "name":"巨魔巫医",
+ 
+ "description": "虽然巫医野蛮、凶恶到了极点，但他们仍然出于某些不可告人的目的加入了兽人大军。巫医精于通过化学药品增强他们同伴的战斗能力。",
+
+ 
+ 
+    "level": "2",
+    "cost": "145G 25L 2F",
+    "unitType": "普通/地面(1)",
+    "attackType": "魔法",
+    "weaponType": "远程",
+    "armonType": "无甲",
+    "armon": "0",
+    "groundAttack": "10-14",
+    "airAttack": "10-14",
+    "attackInterval": "1.75",
+    "life": "315(395*)",
+    "lifeRecovery": "总是",
+    "mana": "200(400*)",
+    "manaRecovery": "0.667(1.167*)",
+    "attackRange": "60",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "30",
+    "trainingPlace": "灵魂归宿",
+    "requirement": "无",
+ "hotKey": "W",
+ "imageName": "witchdoctor.gif",
+ "imageName3": "witchdoctor3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "岗哨守卫 Sentry Ward",
+           "skillimage": "sentryward.gif",
+           "skilldescription": "召唤一个隐形的固定守卫，用来观察某一区域。可发现隐形单位。持续600秒。",
+           "skilldetail": "持续时间:600秒 使用间隔:无 \n魔法消耗:50 作用范围:50 作用范围:地面"
+           },
+           {
+           "skill": "陷阱守卫 Stasis Trap Ward",
+           "skillimage": "peasantgather.gif",
+           "skilldescription": "召唤一个隐形的陷阱守卫，使接近的敌人晕眩。 陷阱持续150秒。晕眩持续6(2.5)秒。",
+           "skilldetail": "持续时间:150秒 使用间隔:无 \n魔法消耗:100 作用范围:40 作用范围:地面"
+           },
+           {
+           "skill": "治疗守卫 Healing Ward",
+           "skillimage": "stasistrap.gif",
+           "skilldescription": "召唤一个固定的守卫，治疗附近的非机械类友军，每秒可恢复2%的生命值。",
+           "skilldetail": "持续时间:30秒 使用间隔:无 \n魔法消耗:200 作用范围:50"
+           
+           },
+           {
+           "skill": "巨魔再生 Troll Regeneration ",
+           "skillimage": "witchdoctoradept.gif",
+           "skilldescription": "增加巨魔猎头者，巨魔狂暴战士，巨魔巫医，巨魔蝙蝠骑士的生命恢复速度，从0.25到1.50。",
+           "skilldetail": "研究费用:100G 100L 研究地点:兵营 \n研究时间:35秒 需求:战争磨坊,要塞"
+           
+           },
+           {
+           "skill": "专家级巫医训练 Witch Doctor Adept Training ",
+           "skillimage": "witchdoctoradept.gif",
+           "skilldescription": "提升巫医100点魔法值，加快魔法恢复速度30%，生命值加40，允许施放陷阱守卫。",
+           "skilldetail": "研究费用:100G 500L 研究地点:灵魂归宿 \n研究时间:60秒 需求:无"
+           
+           },
+           {
+           "skill": "大师级巫医训练 Witch Doctor Master Training ",
+           "skillimage": "witchdoctormaster.gif",
+           "skilldescription": "进一步提升巫医100点魔法值，加快魔法恢复速度30%，生命值加40，允许施放治疗守卫。",
+           "skilldetail": "研究费用:100G 150L 研究地点:兵营 \n研究时间:75秒 需求:堡垒"
+           
+           }
+           ]
+
+},
+
+
+
+{
+    "name":"灵魂行者",
+ 
+ "description": "虚无形态的神秘牛头人法师，能够免于物理攻击。由于被同族的人看成是灾害的象征，白牛头的地位极其低下。他们只好作为牧师隐居于外，在荒凉的大地上孤独的流浪。能攻击地面和空中单位。",
+
+ 
+ 
+    "level": "2",
+    "cost": "195G 35L 3F",
+    "unitType": "普通/地面(1)",
+    "attackType": "魔法",
+    "weaponType": "远程",
+    "armonType": "无甲",
+    "armon": "0",
+    "groundAttack": "17-22",
+    "airAttack": "17-22",
+    "attackInterval": "1.75",
+    "life": "500",
+    "lifeRecovery": "总是",
+    "mana": "300",
+    "manaRecovery": "1(1.65*)",
+    "attackRange": "40",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "38",
+    "trainingPlace": "灵魂归宿",
+    "requirement": "无",
+ "hotKey": "T",
+ "imageName": "spiritwalker.gif",
+ "imageName3": "spiritwalker3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "灵魂锁链 Spirit Link",
+           "skillimage": "spiritlink.gif",
+           "skilldescription": "链接4个单位在一起，所有被灵魂锁链作用的单位都可以将起50%的伤害转移到其他单位上。",
+           "skilldetail": "持续时间:75秒 使用间隔:无 \n魔法消耗:75 距离:70 作用范围:单位"
+           },
+           {
+           "skill": "消魔 Disenchant",
+           "skillimage": "disenchant.gif",
+           "skilldescription": "驱散目标区域的单位的魔法效果。对召唤单位造成250点伤害。",
+           "skilldetail": "持续时间:立即 使用间隔:无 \n魔法消耗:100 距离:65 作用范围:25"
+           },
+           {
+           "skill": "远古神灵 Ancestral Spirit",
+           "skillimage": "ancestralspirit.gif",
+           "skilldescription": "使一个阵亡的非英雄牛头人复活。复活的牛头人拥有100%的生命，复活的灵魂行者拥有155魔法。",
+           "skilldetail": "持续时间:立刻 使用间隔:30秒 \n魔法消耗:250 距离:35 使用目标:友军阵亡牛头人"
+           
+           },
+           {
+           "skill": "虚无形态 Ethereal Form",
+           "skillimage": "etherealform.gif",
+           "skilldescription": "使灵魂行者转变为虚无形态，免受物理攻击，但不能攻击敌人。虚无单位只能被魔法和技能攻击。",
+           "skilldetail": "持续时间:无限 使用间隔:30秒 \n魔法消耗:无 使用目标:自己"
+           
+           },
+           {
+           "skill": "抗性皮肤 Resistant Skin (被动技能)",
+           "skillimage": "resistantskin.gif",
+           "skilldescription": "负面魔法对其作用时间变短，同时对某些免疫效果，例如变形术与占据。",
+           "skilldetail": "(被动技能)"
+           
+           },
+           {
+           "skill": "专家级灵魂行者训练 Spirit Walker Adept Training",
+           "skillimage": "spiritwalkeradepttraining.gif",
+           "skilldescription": "提高灵魂行者的魔法值，魔法恢复速度，生命值，并可以使用消魔。",
+           "skilldetail": "研究费用:100G 50L 研究地点:灵魂归宿 \n研究时间:35秒 需求:无"
+           
+           },
+           
+           {
+           "skill": "大师级灵魂行者训练 Spirit Walker Master Training",
+           "skillimage": "spiritwalkermastertraining.gif",
+           "skilldescription": "进一步提高灵魂行者的魔法值，魔法恢复速度，生命值，并可以使用远古神灵。",
+           "skilldetail": "研究费用:100G 150L 研究地点:灵魂归宿营 \n研究时间:35秒 需求:堡垒"
+           
+           }
+           ]
+
+},
+
+
+
+{
+    "name":"掠夺者",
+ 
+ "description": "骑乘在狼身上的掠夺者曾被认为是兽族中最勇猛的战士，但是在第二次战争中古尔丹解散了掠夺者部队。多年之后的现在，新的兽族领袖萨尔决定组织新一代的掠夺者部队 ，这些强大的战士手持沉重的大刀冲向战场，依靠他们狡猾和残忍的座骑击败敌人。",
+
+ 
+ 
+    "level": "3",
+    "cost": "180G 40L 3F",
+    "unitType": "普通/地面",
+    "attackType": "攻城",
+    "weaponType": "普通",
+    "armonType": "中甲",
+    "armon": "1(7*)",
+    "groundAttack": "23-27(26-42*)",
+    "airAttack": "无",
+    "attackInterval": "1.85",
+    "life": "610",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "近战",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "快(350)",
+    "trainingTime": "28",
+    "trainingPlace": "兽栏",
+    "requirement": "无",
+ "hotKey": "R",
+ "imageName": "raider.gif",
+ "imageName3": "raider.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "诱捕 Ensnare",
+           "skillimage": "ensnare.gif",
+           "skilldescription": "被诱捕套住的敌人单位无法移动，如果是空中单位的话将会被拉到地面。(升级快捷键N)",
+           "skilldetail": "研究费用:50G 75L 研究地点:兽栏 \n研究时间:40秒 需求:无\n持续时间:12(2)秒 使用间隔:12秒 魔法消耗:- 距离:50 使用目标:单个目标"
+           },
+
+           {
+           "skill": "掠夺 Pillage (被动技能)",
+           "skillimage": "pillage.gif",
+           "skilldescription": "每次攻击建筑物时不仅造成伤害，而且还可以掠夺资源。这是一个被动技能。如果你毁掉了那个建筑，那么就可以掠夺回那个建筑造价的50%。",
+           "skilldetail": "研究费用:75G 25L 研究地点:大厅/要塞/堡垒 \n研究时间:60秒 需求:无"
+           
+           }
+           ]
+
+},
+
+
+
+ 
+{
+    "name":"科多兽",
+ 
+ "description": "生活在卡利姆多平原上的巨大科多兽是兽族部落极有价值的盟友。这种威力无穷的巨兽背着兽族沉重的战鼓步入战场，作为兽族力量和勇气的标志，也会利用它们无人能敌的硕大身躯和力量进行支援。在被激怒的情况下，科多兽会一口吞掉它们的敌人。",
+
+ 
+ 
+    "level": "4",
+    "cost": "225G 60L 3F",
+    "unitType": "普通/地面(4)",
+    "attackType": "穿刺",
+    "weaponType": "远程",
+    "armonType": "无甲",
+    "armon": "1",
+    "groundAttack": "16-20",
+    "airAttack": "16-20",
+    "attackInterval": "1.44",
+    "life": "1000",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "19(50*)",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "慢(220)",
+    "trainingTime": "55",
+    "trainingPlace": "兽栏",
+    "requirement": "战争磨坊",
+ "hotKey": "K",
+ "imageName": "kodobeast.gif",
+ "imageName3": "kodobeast3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "吞噬 Devour",
+           "skillimage": "devour.gif",
+           "skilldescription": "吃掉一个单位，被吞噬单位会受到每秒5点伤害。如果在这其间科多兽被杀的话，被吞掉的单位会跳出来重新出现在战场上。",
+           "skilldetail": "持续时间:- 使用间隔:- 魔法消耗:- 距离:10 使用目标:单个目标"
+           },
+           {
+           "skill": "战鼓 War Drums Aura",
+           "skillimage": "wardrums1.gif",
+           "skilldescription": "增加范围内所有我方单位的攻击力。",
+           "skilldetail": "持续时间:- 使用间隔:- 魔法消耗:- 距离:90 使用目标:友军,自身"
+           },
+           {
+           "skill": "强化战鼓 War Drums",
+           "skillimage": "wardrums2.gif",
+           "skilldescription": "在战鼓的基础上再增加攻击力。在之前基础上增加我军的攻击力10%。",
+           "skilldetail": "研究费用:100G 150L 研究地点:兽栏 \n研究时间:40秒 需求:战争磨坊,堡垒"
+           
+           }
+           ]
+
+},
+
+
+{
+    "name":"风骑士",
+ 
+ "description": "卡利姆多的双足飞龙渴望和信奉萨满教的兽族部落结盟，并且允许兽族骑乘它们作战以保卫卡利姆多大陆的宁静。双足飞龙有着龙和 狮鹫的血统 ，可以用他们锋利的爪子和牙齿攻击任何敌人，同时乘座在上面的兽族骑士可以投抛浸毒的长矛攻击敌人。",
+
+ 
+ 
+    "level": "4",
+    "cost": "265G 40L 4F",
+    "unitType": "普通/空中",
+    "attackType": "穿刺",
+    "weaponType": "远程",
+    "armonType": "轻甲",
+    "armon": "0(6*)",
+    "groundAttack": "36-44(39-59*)",
+    "airAttack": "36-44(39-59*)",
+    "attackInterval": "2",
+    "life": "570",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "45",
+    "dayView": "160",
+    "nightView": "80",
+    "speed": "快(320)",
+    "trainingTime": "35",
+    "trainingPlace": "兽栏",
+    "requirement": "-",
+ "hotKey": "W",
+ "imageName": "wyvernrider.gif",
+ "imageName3": "wyvernrider.gif",
+ 
+ 
+ "skill": [
+            {
+           "skill": "浸毒标枪 Research Envenomed Spears (被动技能)",
+           "skillimage": "envenomedspears.gif",
+           "skilldescription": "让双足飞龙的攻击带有毒伤害，被攻击目标将会受到每秒4点伤害，持续时间25秒。",
+           "skilldetail": "研究费用:100G 150L 研究地点:兽栏 \n研究时间:40秒 需求:堡垒"
+           
+           }
+           ]
+
+},
+
+{
+    "name":"巨魔蝙蝠骑士",
+ 
+ "description": "具有良好视野范围的轻型飞行单位。擅长摧毁建筑物，也可以用来侦察。攻击地面单位。",
+
+ 
+ 
+    "level": "4",
+    "cost": "160G 40L 2F",
+    "unitType": "普通/空中",
+    "attackType": "工程",
+    "weaponType": "远程",
+    "armonType": "轻甲",
+    "armon": "0(6*)",
+    "groundAttack": "13-15(16-24*)",
+    "airAttack": "无",
+    "attackInterval": "1.8",
+    "life": "325",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "30",
+    "dayView": "140",
+    "nightView": "140",
+    "speed": "快(320)",
+    "trainingTime": "28",
+    "trainingPlace": "兽栏",
+    "requirement": "巫毒商店",
+ "hotKey": "B",
+ "imageName": "trollbatrider.gif",
+ "imageName3": "trollbatrider.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "不稳定化合物 Unstable Concoction",
+           "skillimage": "repair.gif",
+           "skilldescription": "产生巨大的爆炸，对目标单位造成伤害。并在一定的范围内给其它空中目标造成较少的伤害。",
+           "skilldetail": ""
+           },
+           {
+           "skill": "燃烧弹 Liquid Fire (被动技能)",
+           "skillimage": "unstableconcoction.gif",
+           "skilldescription": "投拋爆炸性的液体导致建筑物持续受损，遭到燃烧弹攻击的建筑无法修理，并且减慢防御性建筑80%的攻击速度 。",
+           "skilldetail": "研究费用:75G 125L 研究地点:兽栏 \n研究时间:75秒 需求:战争磨坊,要塞\n持续时间:3秒 使用目标:建筑"
+           },
+            {
+           "skill": "巨魔再生 Troll Regeneration ",
+           "skillimage": "witchdoctoradept.gif",
+           "skilldescription": "增加巨魔猎头者，巨魔狂暴战士，巨魔巫医，巨魔蝙蝠骑士的生命恢复速度，从0.25 到 1.50。",
+           "skilldetail": "研究费用:100G 100L 研究地点:兵营 \n研究时间:35秒 需求:战争磨坊,要塞"
+           
+           }
+           ]
+
+},
+
+
+{
+    "name":"牛头人",
+ 
+ "description": "卡利姆多平原上强大的牛头人以勇猛和骄傲著称，为了保卫他们的文化不被不死军团的死亡之火毁灭，他们宣誓效忠新的兽人大军。人身牛头怪的武器是绑在脚上的一个链子流星锤，在近战中挥舞起来威力十足。被激怒的牛头人战士会使用他们的链子流星锤和角击溃敌人。",
+
+ 
+    "level": "5",
+    "cost": "280G 80L 5F",
+    "unitType": "普通/地面(4)",
+    "attackType": "普通",
+    "weaponType": "普通",
+    "armonType": "重甲",
+    "armon": "3(9*)",
+    "groundAttack": "30-36",
+    "airAttack": "无",
+    "attackInterval": "1.9",
+    "life": "1300",
+    "lifeRecovery": "总是",
+    "mana": "无",
+    "manaRecovery": "-",
+    "attackRange": "近战",
+    "dayView": "140",
+    "nightView": "80",
+    "speed": "中等(270)",
+    "trainingTime": "44",
+    "trainingPlace": "牛头人图腾",
+    "requirement": "无",
+ "hotKey": "T",
+ "imageName3": "tauren3.gif",
+
+ "skill": [
+            {
+           "skill": "粉碎 Pulverize (被动技能)",
+           "skillimage": "pulverize.gif",
+           "skilldescription": "有25%的机率使牛头战士的攻击造成范围攻击：60 伤害 (25 范围)/30 伤害 (35 范围)",
+           "skilldetail": "研究费用:100G 250L 研究地点:牛头人图腾\n研究时间:40秒 需求:无"
+           }
+           ],
+ 
+ "imageName": "tauren.gif"
+
+ },
+ 
+ {
+ "name":"幽灵之狼",
+ 
+ "description": "幽灵(恐惧)(阴影)之狼是由先知召唤的。两级以上的召唤狼拥有致命一击技能，让狼有20%的几率对敌人造成致命一击。阴影之狼可以存在60秒，并具有致命一击技能。在不攻击时，阴影之狼一直会处于隐形状态。",
+ 
+ 
+ 
+ "level": "3/4/5",
+ "cost": "-",
+ "unitType": "召唤",
+ "attackType": "普通",
+ "weaponType": "普通",
+ "armonType": "重甲",
+ "armon": "0",
+ "groundAttack": "11-12/16-17/21-22",
+ "airAttack": "无",
+ "attackInterval": "1",
+ "life": "200/300/500",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "近战",
+ "dayView": "120",
+ "nightView": "80",
+ "speed": "快(350)",
+ "trainingTime": "-",
+ "trainingPlace": "-",
+ "requirement": "先知",
+ "hotKey": "T",
+ "imageName": "feralspirit.gif",
+ "imageName3": "direwolf3.gif",
+ 
+ 
+ "skill": [
+           {
+           "skill": "致命一击 Critical Strike",
+           "skillimage": "criticalstrike.gif",
+           "skilldescription": "让阴影之狼有20%的几率对敌人造成致命一击。",
+           "skilldetail": "-"
+           }
+           ]
+ }
+ 
+ ,
+ 
+ {
+ "name":"毒蛇守卫",
+ 
+ "description": "召唤一个不动的毒蛇守卫来攻击暗影猎手的敌人。",
+ 
+ 
+ 
+ "level": "1/2/3",
+ "cost": "-",
+ "unitType": "召唤",
+ "attackType": "穿刺",
+ "weaponType": "远程",
+ "armonType": "重甲",
+ "armon": "0",
+ "groundAttack": "11-13/23-26/41-45",
+ "airAttack": "11-13/23-26/41-45",
+ "attackInterval": "1.5",
+ "life": "75/135/135",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "60",
+ "dayView": "120",
+ "nightView": "80",
+ "speed": "无",
+ "trainingTime": "-",
+ "trainingPlace": "-",
+ "requirement": "暗影猎手",
+ "hotKey": "W",
+ "imageName": "serpentward.gif",
+ "imageName3": "serpentward3.gif",
+ 
+ 
+ "skill": [
+           ]
+ 
+ }
+ 
+ 
+ 
+ ]
+
+

@@ -1,0 +1,866 @@
+[
+ {
+ "name": "农民",
+        "description": "农民是洛丹伦大陆各个国家征召而来的纯朴，勤劳的劳力。他们开采军队作战所需的黄金和木材，保障了联盟顺利推进。他们不仅可以采矿，还能建造各种建筑物。农民们以服务军队为荣，同时在听说了兽族的暴行后，也懂得如何使用锄头和斧头自卫。",
+ "level": "1",
+ "cost": "75G 0L 1F",
+ "unitType": "普通/地面(1)",
+ "attackType": "普通",
+ "weaponType": "普通",
+ "armonType": "中甲",
+ "armon": "0",
+ "groundAttack": "5-6",
+ "airAttack": "无",
+ "attackInterval": "2",
+ "life": "220",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "近战",
+ "dayView": "80",
+ "nightView": "60",
+ "speed": "慢(190)",
+ "trainingTime": "15",
+ "trainingPlace": "城镇大厅",
+ "requirement": "-",
+ "hotKey": "P",
+ "imageName": "peasant.gif",
+ "imageName3": "peasant3.gif",
+
+ "skillstart": "2",
+
+ 
+    "skill": [
+              {
+              "skill": "修理 Repair(自动施放)",
+              "skillimage": "repair.gif",
+              "skilldescription": "农民可以修理受损的建筑和机械单，右键点击可以将修理设定为自动。",
+              "skilldetail": ""
+              },
+              {
+              "skill": "采集 Gather",
+              "skillimage": "peasantgather.gif",
+              "skilldescription": "从金矿采集黄金或者砍树来获得木材，右键点击金矿或木材。4个农民一分钟采金480，5个一分钟采金580。",
+              "skilldetail": ""
+              },
+              {
+              "skill": "运送资源 Return Resources",
+              "skillimage": "peasantreturngoods.gif",
+              "skilldescription": "将收集到的资源送会城市大厅。在采集足够资源后，这个命令会自动执行。",
+              "skilldetail": ""
+
+              },
+              {
+              "skill": "修建建筑 Build Structure",
+              "skillimage": "peasantbuild.gif",
+              "skilldescription": "点击后出现一个你可以进行建造的建筑列表。",
+              "skilldetail": ""
+
+              },
+               {
+               "skill": "召集民兵 Call to Arms",
+               "skillimage": "calltoarms.gif",
+               "skilldescription": "将农民召回到最近的城市大厅，这样他们可以变成民兵来协助防守。",
+               "skilldetail": " "
+
+      }
+    ]
+ 
+ 
+  },
+ 
+ 
+ {
+ "name": "民兵",
+ 
+         "description": "必要的时候，这些服务与人族联盟的农民可以被召集起来变成民兵。你可以从你的第一个城市大厅来召集你的农民变成民兵用来抵抗敌人的进攻。一段时间后，民兵会自动变成农民，或者你可以通过城市大厅再一次召集他们变成民兵。",
+ 
+ "level": "1",
+ "cost": "1F",
+ "unitType": "普通/地面(1)",
+ "attackType": "普通",
+ "weaponType": "普通",
+ "armonType": "重甲",
+ "armon": "4(10*)",
+ "groundAttack": "12-13(15-19*)",
+ "airAttack": "无",
+ "attackInterval": "1.2",
+ "life": "220",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "近战",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "中等(270)",
+ "trainingTime": "-",
+ "trainingPlace": "-",
+ "requirement": "-",
+ "hotKey": "C",
+ 
+ 
+ 
+ "skillNumber": "1",
+
+ 
+ "imageName":"militia3.gif",
+ "imageName3":"militia3.gif",
+
+ "skillstart": "1",
+ 
+ 
+ "skill": [
+           {
+           "skill": "返回工作 Back to work",
+           "skillimage": "backtowork.gif",
+           "skilldescription": "返回最近的城市大厅，变成农民。",
+           "skilldetail": ""
+           }
+           ]
+ },
+ 
+ {
+ "name": "步兵",
+ 
+ "description": "这些年不断的战争造成联盟军队的大量减员后,许多新兵的加入及时的补充了兵员。受过正规剑术训练的步兵充当着联盟的前锋和防御部队。装备着宽刃剑和重型盾牌的步兵可以有效的瓦解敌人的进攻。",
+ 
+ "level": "2",
+ "cost": "135G 0L 2F",
+ "unitType": "普通/地面(1)",
+ "attackType": "普通",
+ "weaponType": "普通",
+ "armonType": "重甲",
+ "armon": "2(8*)",
+ "groundAttack": "12-13(15-19*)",
+ "airAttack": "无",
+ "attackInterval": "1.35",
+ "life": "420",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "近战",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "中等(270)",
+ "trainingTime": "20",
+ "trainingPlace": "兵营",
+ "requirement": "-",
+ "hotKey": "F",
+ 
+ "imageName":"footman.gif",
+ "imageName3":"footman3.gif",
+
+ "skillstart": "1",
+ "skill": [
+           {
+           "skill": "防御 Defend",
+           "skillimage": "defend.gif",
+           "skilldescription": "激活以后有30%的概率反弹穿刺攻击（不会反弹建筑的穿刺攻击），对于没有被反弹的攻击，也只受到50%的伤害。如果防御状态被激活，移动速度变为30%的常规速度。",
+           "skilldetail": "研究费用:150G 100L 研究地点:兵营 \n研究时间:40秒 需求:无"
+           }
+           ]
+ 
+
+ },
+ {
+ "name": "火枪手",
+         "description": "勇敢的矮人火枪手自从格瑞姆巴托之战以来一直忠心保卫着他们的山地王国卡慈莫丹，当他们来之不易的自由再一次受到威胁时，他们再次为洛丹伦联盟而战。这些使用神奇的单发火枪的矮人是出色的射手，并且可以攻击空中目标。",
+ 
+ 
+ "level": "3",
+ "cost": "205G 30L 3F",
+ "unitType": "普通/地面(1)",
+ "attackType": "穿刺",
+ "weaponType": "直接",
+ "armonType": "中甲",
+ "armon": "0(6*)",
+ "groundAttack": "18-24(21-36*)",
+ "airAttack": "18-24(21-36*)",
+ "attackInterval": "1.5",
+ "life": "505",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "40(60*)",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "中等(270)",
+ "trainingTime": "26",
+ "trainingPlace": "兵营",
+ "requirement": "铁匠铺",
+ "hotKey": "R",
+    "imageName":"rifleman.gif",
+ "imageName3":"rifleman3.gif",
+
+ 
+ "skillstart": "1",
+ 
+
+ 
+ "skill": [
+           {
+           "skill": "长管火枪 Long Rifles",
+           "skillimage": "upgraderifles.gif",
+           "skilldescription": "让火枪手的射程提升20。",
+           "skilldetail": "研究费用:75G 125L 研究地点:兵营 \n研究时间:30秒 需求:主城"
+           }
+           ]
+ 
+
+ 
+
+ 
+  }
+
+ 
+ ,
+ 
+ 
+ {
+ "name": "骑士",
+ 
+         "description": "虽然在人类和兽人的第一次大战中，艾泽拉斯的骑士伤亡惨重，但洛丹伦的骑士继续为人类联军服役。这些身着重甲的战士可以用手中的重剑将敌人砍出几尺之外。而骑士的速度和移动性使他们成为人类联军中最为多才多艺的战士。",
+ 
+ 
+ "level": "4",
+ "cost": "245G 60L 4F",
+ "unitType": "普通/地面(1)",
+ "attackType": "普通",
+ "weaponType": "普通",
+ "armonType": "普通",
+ "armon": "5(11*)",
+ "groundAttack": "30-38(33-53*)",
+ "airAttack": "无",
+ "attackInterval": "1.4",
+ "life": "835(985)",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "近战",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "快(350)",
+ "trainingTime": "45",
+ "trainingPlace": "兵营",
+ "requirement": "BL.BS.三本",
+ "hotKey": "K",
+  "imageName3":"knight3.gif",
+
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+  
+           {
+           "skill": "动物作战训练 Animal War Training",
+           "skillimage": "animalwartraining.gif",
+           "skilldescription": "增加骑士、狮鹫骑士、龙鹰的生命150点。",
+           "skilldetail": "研究费用:125G 175L 研究地点:兵营 \n研究时间:40秒 需求:伐木场、铁匠铺、城堡"
+
+           }
+           ],
+ 
+ 
+ "imageName":"knight.gif"
+
+ },
+ {
+ "name": "牧师",
+ 
+         "description": "这些圣洁的战地医生穿梭于战场上，为那些倒下的同伴疗伤。虽然高级精灵已经正式脱离的联盟。但仍然有一些精灵与他们的人族和矮人盟友站在一起。无私的牧师拒绝抛弃他们作为医生的职责，他们拒绝执行银月城的领导者下达的命令而留在了洛丹伦。高阶精灵牧师使用光明赐于他们的力量为洛丹伦的战士们治愈伤口，鼓舞他们的士气。",
+ 
+ 
+ "level": "2",
+ "cost": "135G 10L 2F",
+ "unitType": "普通/地面(1)",
+ "attackType": "魔法",
+ "weaponType": "远程",
+ "armonType": "无甲",
+ "armon": "0",
+ "groundAttack": "8-9",
+ "airAttack": "8-9",
+ "attackInterval": "2",
+ "life": "290(370*)",
+ "lifeRecovery": "总是",
+ "mana": "200(400*)",
+ "manaRecovery": "0.667(1.167*)",
+ "attackRange": "60",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "中等(270)",
+ "trainingTime": "28",
+ "trainingPlace": "神秘圣地",
+ "requirement": "无",
+ "hotKey": "P",
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "医疗 Heal(自动施放)",
+           "skillimage": "heal.gif",
+           "skilldescription": "给我方的非机械单位恢复25点生命。",
+           "skilldetail": "使用间隔:1秒 魔法消耗:5 距离:25"
+           },
+           {
+           "skill": "驱散 Dispel Magic",
+           "skillimage": "dispelmagic.gif",
+           "skilldescription": "驱除一定范围内的所有魔法效果，并可以给召唤生物造成200点伤害。",
+           "skilldetail": "持续时间:立即 使用间隔:- \n魔法消耗:75 距离:50 作用范围:20"
+           },
+           {
+           "skill": "心灵之火 Inner Fire(自动施放)",
+           "skillimage": "innerfire.gif",
+           "skilldescription": "增加我方单位10%的攻击力和5点护甲。",
+           "skilldetail": "持续时间:60秒 使用间隔:1秒 \n魔法消耗:35 距离:50 作用范围:一个单位"
+           
+           },
+           {
+           "skill": "专家级 Priest Adept Training",
+           "skillimage": "priestadept.gif",
+           "skilldescription": "增加牧师的魔法值100点，魔法恢复速度加快30%，生命值增加40点，并学会驱散技能。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无 "
+           
+           },
+           {
+           "skill": "大师级 Priest Master Training",
+           "skillimage": "priestmaster.gif",
+           "skilldescription": "再增加牧师的魔法值100点，魔法恢复速度加快30%，生命值增加40点，并学会心灵之火技能。",
+           "skilldetail": "研究费用:100G 150L 研究地点:神秘圣地 \n研究时间:60秒 需求:专家级训练、城堡 "
+           
+           }
+           ],
+ 
+  "imageName3":"priest3.gif",
+
+ 
+ "imageName":"priest.gif"
+
+ },
+ {
+ "name": "女巫",
+ 
+         "description": "这些由达拉然派遣来的女性的魔法师，一直在关注着变化无常的战场，无论在什么时候，只要人性受到威胁，她们就会使用自己神秘的力量去协助联盟武装。尽管她们的力量不是经常直接作用于战斗，但是女巫们能够带给联盟阵线的战士们大范围专用阵列咒术和魔法效果以协助他们战斗。",
+ 
+ "level": "2",
+ "cost": "155G 20L 2F",
+ "unitType": "普通/地面(1)",
+ "attackType": "魔法",
+ "weaponType": "远程",
+ "armonType": "无甲",
+ "armon": "0",
+ "groundAttack": "10-12",
+ "airAttack": "10-12",
+ "attackInterval": "1.75",
+ "life": "325(405*)",
+ "lifeRecovery": "总是",
+ "mana": "200(400*)",
+ "manaRecovery": "0.667(1.167*)",
+ "attackRange": "60",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "中等(270)",
+ "trainingTime": "28",
+ "trainingPlace": "神秘圣地",
+ "requirement": "无",
+ "hotKey": "S",
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "减速 Slow(自动施放)",
+           "skillimage": "slow.gif",
+           "skilldescription": "减慢一个敌方单位25%的攻击频率和60%的移动速度。",
+           "skilldetail": "持续时间:60(10秒) 使用间隔:1秒 \n魔法消耗:50 距离:70 作用范围:一个单位"
+           },
+           {
+           "skill": "隐身术 Invisibility",
+           "skillimage": "invisibility.gif",
+           "skilldescription": "将一个单位隐身一段时间，在这段时间内，如果这个单位攻击或施法的话，就会显形。",
+           "skilldetail": "持续时间:120秒 使用间隔:- \n魔法消耗:50 距离:30 作用范围:一个单位"
+           },
+           {
+           "skill": "变形术 Polymorph",
+           "skillimage": "polymorph.gif",
+           "skilldescription": "将一个敌方单位变成一只羊，或者一只飞羊。目标单位将保留其现有生命值和护甲类型，但是不能攻击或施放法术。不过这个法术不能对英雄和召唤单位施放。",
+           "skilldetail": "持续时间:60秒 使用间隔:- \n魔法消耗:220 距离:50 作用范围:一个单位"
+           
+           },
+           {
+           "skill": "专家级 Sorceress Adept Training",
+           "skillimage": "sorceressadept.gif",
+           "skilldescription": "增加女巫的魔法值100点，魔法恢复速度加快30%，生命值增加40点，并学会隐身术技能。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无 "
+           
+           },
+           {
+           "skill": "大师级 Sorceress Master Training",
+           "skillimage": "sorceressmaster.gif",
+           "skilldescription": "再增加女巫的魔法值100点，魔法恢复速度加快30%，生命值增加40点，并学会变形术技能。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无"
+           }
+           ],
+  "imageName3":"sorceress3.gif",
+
+ "imageName":"sorceress.gif"
+
+ },
+ {
+ "name": "魔法破坏者",
+ 
+         "description": "精灵族的英勇战士，精于破坏和扭曲魔法能量。这些高贵的血精灵战士还没有从失去家园的阴影之中走出来，现在他们对于处于战火之中的洛丹伦寄托着无限的希望。那里能成为他们的新家园吗？",
+ 
+ "level": "2",
+ "cost": "215G 30L 3F",
+ "unitType": "普通/地面(1)",
+ "attackType": "普通",
+ "weaponType": "普通",
+ "armonType": "中甲",
+ "armon": "3(9*)",
+ "groundAttack": "13-15(16-24*)",
+ "airAttack": "无",
+ "attackInterval": "1.9",
+ "life": "600",
+ "lifeRecovery": "总是",
+ "mana": "250",
+ "manaRecovery": "0.8",
+ "attackRange": "25",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "快(300)",
+ "trainingTime": "28",
+ "trainingPlace": "神秘圣地",
+ "requirement": "神秘藏宝室",
+ "hotKey": "B",
+ 
+ "skillstart": "2",
+ "skill": [
+           {
+           "skill": "盗法 Spell Steal(自动施放)",
+           "skillimage": "spellsteal.gif",
+           "skilldescription": "这个技能可以让破法者从敌军身上将有益的魔法转移到临近的我方单位身上，也可以将我军身上的有害魔法效果转移的临近的敌方单位身上。",
+           "skilldetail": "持续时间:立即 使用间隔:3秒 \n魔法消耗:75 距离:70 作用范围:70"
+           },
+           {
+           "skill": "控魔 Control Magic",
+           "skillimage": "controlmagic.gif",
+           "skilldescription": "可以控制敌方的一个召唤单位，消耗魔法根据被控制单位的生命值而改变。（升级快捷键G）",
+           "skilldetail": "研究费用:75G 75L 研究地点:神秘圣地\n研究时间:60秒 需求:神秘藏宝室、城堡\n持续时间:60秒 使用间隔:5秒 魔法消耗:生命值*0.45+25 距离:70"
+           },
+           {
+           "skill": "魔法免疫 Spell Immunity(被动技能)",
+           "skillimage": "spellimmunity.gif",
+           "skilldescription": "对所有魔法免疫。",
+           "skilldetail": ""
+           },
+           {
+           "skill": "魔法反馈 Feedback(被动技能)",
+           "skillimage": "feedback.gif",
+           "skilldescription": "让破法者在攻击时消耗掉目标单位20点魔法(对英雄是4点)，自燃法力，同时造成和消耗魔法同等的伤害。魔法反馈无法作用于魔法免疫单位。",
+           "skilldetail": "  "
+           }
+           ],
+ 
+  "imageName3":"spellbreaker3.gif",
+
+ "imageName":"spellbreaker.gif"
+
+ },
+ {
+ "name": "矮人直升机",
+ 
+         "description": "由矮人驾驶的小巧的矮人直升机[飞行机器]。",
+ 
+ 
+ "level": "1",
+ "cost": "90G 30L 1F",
+ "unitType": "机械/空中",
+ "attackType": "攻城/穿刺",
+ "weaponType": "远程/直接",
+ "armonType": "重甲",
+ "armon": "2(8*)",
+ "groundAttack": "7-8(10-14*)",
+ "airAttack": "14-15(17-21*)",
+ "attackInterval": "2.5/2",
+ "life": "200",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "近战/50",
+ "dayView": "180",
+ "nightView": "110",
+ "speed": "非常快(400)",
+ "trainingTime": "13",
+ "trainingPlace": "车间",
+ "requirement": "无",
+ "hotKey": "F",
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "真实视野 True Sight(被动技能)",
+           "skillimage": "truesight.gif",
+           "skilldescription": "让附近的隐形单位显形。",
+           "skilldetail": "  "
+           },
+           {
+           "skill": "矮人直升机炸弹 (被动技能)",
+           "skillimage": "gyrobombs.gif",
+           "skilldescription": "让矮人直升机可以攻击地面单位。",
+           "skilldetail": "研究费用:150G 100L 研究地点:车间 \n研究时间:35秒 需求:城堡"
+           },
+           {
+           "skill": "高射炮 Flak Cannons(被动技能)",
+           "skillimage": "flakcannons.gif",
+           "skilldescription": "在7.5范围内，单位受到满溅射伤害，在范围15内受到一半溅射伤害，在范围32.5内受到四分之一溅射伤害。满伤害值为7，一半伤害为6，四分之一伤害为5。",
+           "skilldetail": "研究费用:100G 150L 研究地点:车间 \n研究时间:40秒 需求:城堡"
+           }
+           ],
+ 
+  "imageName3":"gyrocopter3.gif",
+
+ "imageName":"gyrocopter.gif"
+
+ },
+ {
+ "name": "迫击炮小队",
+ 
+         "description": "铁炉堡来的迫击炮小队装备了最新发明的爆炸性炮弹。可以在远距离外将敌人炸的落花流水。这些无畏的矮人是爆破装置的专家，并且对炸掉敌人的坚固建筑物充满兴趣。",
+ 
+ 
+ "level": "2",
+ "cost": "180G 70L 3F",
+ "unitType": "普通/地面(2)",
+ "attackType": "攻城",
+ "weaponType": "火炮溅射",
+ "armonType": "重甲",
+ "armon": "0(6*)",
+ "groundAttack": "52-64(55-103*)",
+ "airAttack": "无",
+ "attackInterval": "3.5",
+ "life": "360",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "115(25最小)",
+ "dayView": "140",
+ "nightView": "120",
+ "speed": "中等(270)",
+ "trainingTime": "40",
+ "trainingPlace": "车间",
+ "requirement": "无",
+ "hotKey": "M",
+ 
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "闪光弹 Flare",
+           "skillimage": "flare.gif",
+           "skilldescription": "发射一个闪光弹，显示特定区域的全部状况15秒，可显示隐形单位。每120秒你就可以发射一次闪光弹，换句话说你的闪光弹是无限的。",
+           "skilldetail": "持续时间:15秒 使用间隔:120秒 魔法消耗:- 距离:无限 作用范围:180\n研究费用:50G 100L 研究地点:车间\n研究时间:40秒 需求:城堡"
+           },
+           {
+           "skill": "碎片攻击 FragmentationShards(被动)",
+           "skillimage": "flamestrike.gif",
+           "skilldescription": "范围2.5以内，受到全部溅射伤害，范围15以内受到一半溅射伤害，范围25以内受到四分之一溅射伤害。全部溅射伤害为25，一半溅射伤害为18，四分之一溅射伤害为12。",
+           "skilldetail": "研究费用:50G 50L 研究地点:车间\n研究时间:30秒 需求:主城"
+           }
+           ],
+ 
+  "imageName3":"mortarteam3.gif",
+
+ "imageName":"mortarteam.gif"
+
+ },
+ {
+ "name": "蒸汽坦克",
+ 
+         "description": "由勇敢的矮人所驾驶的攻城坦克是联盟新加入的力量。他们驾驶着坚固的坦克，在近似疯狂的行进中将敌人的建筑物踏平。",
+ 
+ "level": "2",
+ "cost": "195G 60L 3F",
+ "unitType": "机械/地面(4)",
+ "attackType": "攻城(穿刺)",
+ "weaponType": "直接",
+ "armonType": "城甲",
+ "armon": "2(8*)",
+ "groundAttack": "45-55(48-88*)",
+ "airAttack": "13-14(16-20*)",
+ "attackInterval": "2.1",
+ "life": "700",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "19(50*)",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "慢(220)",
+ "trainingTime": "55",
+ "trainingPlace": "车间",
+ "requirement": "城堡",
+ "hotKey": "E",
+ 
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "弹幕攻击 Barrage(被动)",
+           "skillimage": "barrage.gif",
+           "skilldescription": "对周围的敌方空中单位进行强有力的弹幕攻击。研究此技能后，蒸汽坦克才能攻击空中单位。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无 "
+           }
+           ],
+ 
+ 
+  "imageName3":"siegeengine3.gif",
+
+ "imageName":"siegeengine.gif"
+
+ },
+ {
+ "name": "狮鹫骑士",
+ 
+         "description": "蛮锤氏族的勇敢矮人又一次响应号召，带领他们强大的狮鹫来支援联盟。这些手持充满雷电神力巨锤的战士了确保洛丹伦大陆的自由而战，他们骄傲的狮鹫成为了联盟不屈精神的象征。",
+ 
+ 
+ "level": "5",
+ "cost": "280G 70L 4F",
+ "unitType": "普通/空中",
+ "attackType": "魔法",
+ "weaponType": "远程(远程直线*)",
+ "armonType": "轻甲",
+ "armon": "0(6*)",
+ "groundAttack": "45-55(48-88*)",
+ "airAttack": "45-55(48-88*)",
+ "attackInterval": "2.2",
+ "life": "825(975*)",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "-",
+ "attackRange": "45",
+ "dayView": "160",
+ "nightView": "90",
+ "speed": "快(320)",
+ "trainingTime": "45",
+ "trainingPlace": "狮鹫笼",
+ "requirement": "城堡",
+ "hotKey": "G",
+ 
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "风暴战锤 Storm Hammers(被动技能)",
+           "skillimage": "stormhammer.gif",
+           "skilldescription": "让狮鹫骑士的攻击可以弹射到下一个单位，伤害不变，但是对空中单位无效。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无"
+           },
+           {
+           "skill": "动物作战训练",
+           "skillimage": "animalwartraining.gif",
+           "skilldescription": "增加骑士，狮鹫骑士，龙鹰的生命150点。",
+           "skilldetail": "研究费用:125G 175L\n研究地点:兵营 \n研究时间:40秒 需求:伐木场、铁匠铺、城堡"
+
+           }
+           ],
+ 
+ 
+  "imageName3":"gryphonrider3.gif",
+
+ "imageName":"gryphonrider.gif"
+
+ },
+ 
+ 
+ {
+ "name": "龙鹰",
+ 
+         "description": "由精灵族战士骑乘的快速飞行单位。这些勇猛的单位经常冲锋在部队的前头，用云雾笼罩着敌人的防御建筑，从而使己方部队不受敌人防御工事的任何阻碍。",
+ 
+ "level": "3",
+ "cost": "200G 30L F",
+ "unitType": "普通/空中",
+ "attackType": "穿刺",
+ "weaponType": "远程",
+ "armonType": "轻甲",
+ "armon": "1(7*)",
+ "groundAttack": "18-20(21-29*)",
+ "airAttack": "18-20(21-29*)",
+ "attackInterval": "1.75",
+ "life": "575(725*)",
+ "lifeRecovery": "总是",
+ "mana": "300",
+ "manaRecovery": "0.75",
+ "attackRange": "45",
+ "dayView": "140",
+ "nightView": "80",
+ "speed": "快(350)",
+ "trainingTime": "30",
+ "trainingPlace": "狮鹫笼",
+ "requirement": "神秘藏宝室",
+ "hotKey": "D",
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "云雾 Cloud",
+           "skillimage": "cloud.gif",
+           "skilldescription": "施放出一小块乌云，并让被乌云笼罩的防御性建筑无法进行攻击。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无\n持续时间:立即 使用间隔:无 魔法消耗:75 距离:50 作用范围:20"
+           },
+           {
+           "skill": "空中枷锁 Aerial Shackles",
+           "skillimage": "aerialshackles.gif",
+           "skilldescription": "将敌人一个空中单位固定在魔法枷锁中，被锁定的单位无法移动，进攻或是施放法术。并造成一定的伤害。",
+           "skilldetail": "持续时间:立即 使用间隔:- \n魔法消耗:75 距离:50 作用范围:20"
+           },
+           {
+           "skill": "动物作战训练 Animal War Training",
+           "skillimage": "animalwartraining.gif",
+           "skilldescription": "增加骑士，狮鹫骑士，龙鹰的生命150点。",
+           "skilldetail": "研究费用:125G 175L 研究地点:兵营 \n研究时间:40秒 需求:伐木场、铁匠铺、城堡"
+           }
+           ],
+ 
+
+  "imageName3":"dragonhawk3.gif",
+
+ "imageName":"dragonhawk.gif"
+
+ }
+ 
+
+
+ ,
+ 
+ 
+ {
+ "name": "水元素",
+ 
+ "description": "大法师最强的魔法技能之一就是召唤水元素来支持联盟的战士。这些无意识的，形态不稳定的水元素能够对它的敌人造成很大伤害。水元素在第一次战争中就是人族法师的最爱，现在它们又一次为了人族而战。",
+ 
+ "level": "5/6/7",
+ "cost": "-",
+ "unitType": "召唤",
+ "attackType": "穿刺",
+ "weaponType": "远程",
+ "armonType": "重甲",
+ "armon": "0/1/2",
+ "groundAttack": "18-22/31-39/41-49",
+ "airAttack": "18-22/31-39/41-49",
+ "attackInterval": "1.5",
+ "life": "525/675/900",
+ "lifeRecovery": "总是",
+ "mana": "无",
+ "manaRecovery": "0.75",
+ "attackRange": "45",
+ "dayView": "120",
+ "nightView": "80",
+ "speed": "慢(220)",
+ "trainingTime": "30",
+ "trainingPlace": "-",
+ "requirement": "大法师",
+ "hotKey": "W",
+ 
+ 
+ 
+ "skillstart": "-",
+ 
+ 
+ "skill": [
+ 
+           ],
+ 
+ 
+ "imageName3":"waterelemental3.gif",
+ 
+ "imageName":"summonwaterelemental.gif"
+ 
+ }
+
+ 
+ ,
+ 
+ 
+ {
+ "name": "凤凰",
+ 
+ "description": "当火凤凰死亡的时候，它回变成一个凤凰蛋。如果10秒钟内这个蛋没有被摧毁，那么火凤凰就会重生。",
+ 
+ "level": "6",
+ "cost": "-",
+ "unitType": "召唤/空中",
+ "attackType": "魔法",
+ "weaponType": "远程溅射",
+ "armonType": "轻甲",
+ "armon": "1",
+ "groundAttack": "61-75",
+ "airAttack": "61-75",
+ "attackInterval": "1.4",
+ "life": "1250",
+ "lifeRecovery": "-25",
+ "mana": "-",
+ "manaRecovery": "0.75",
+ "attackRange": "60",
+ "dayView": "160",
+ "nightView": "90",
+ "speed": "快(320)",
+ "trainingTime": "30",
+ "trainingPlace": "-",
+ "requirement": "血魔法师",
+ "hotKey": "X",
+ 
+ 
+ 
+ "skillstart": "2",
+ 
+ 
+ "skill": [
+           {
+           "skill": "魔法免疫 Spell Immunity",
+           "skillimage": "cloud.gif",
+           "skilldescription": "施放出一小块乌云，并让被乌云笼罩的防御性建筑无法进行攻击。",
+           "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无\n持续时间:立即 使用间隔:无 魔法消耗:75 距离:50 作用范围:20"
+           },
+           {
+           "skill": "抗性皮肤 Resistant Skin",
+           "skillimage": "aerialshackles.gif",
+           "skilldescription": "将敌人一个空中单位固定在魔法枷锁中，被锁定的单位无法移动，进攻或是施放法术。并造成一定的伤害。",
+           "skilldetail": "持续时间:立即 使用间隔:- \n魔法消耗:75 距离:50 作用范围:20"
+           }
+           ],
+ 
+ 
+ "imageName3":"phoenix3.gif",
+ 
+ "imageName":"markoffire.gif"
+ 
+ }
+ ]

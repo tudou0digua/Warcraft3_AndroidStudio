@@ -1,0 +1,92 @@
+ [
+  {
+  "name": "城镇大厅",
+  
+  "imageName":"BTNTownHall.png",
+  "imageName3":"BTNTownHall3.jpg"
+
+  },
+  {
+  "name": "要塞",
+  "imageName":"BTNKeep.png",
+  "imageName3":"BTNKeep3.jpg"
+
+  }, {
+  "name": "城堡",
+  "imageName":"BTNCastle.png",
+  "imageName3":"BTNCastle3.jpg"
+  }, {
+  "name": "兵营",
+  "imageName":"BTNHumanBarracks.png",
+  "imageName3":"BTNHumanBarracks3.jpg"
+  }, {
+  "name": "伐木场",
+  "imageName":"BTNHumanLumberMill.png",
+  "imageName3":"BTNHumanLumberMill3.jpg"
+  }, {
+  "name": "铁匠铺",
+  "imageName":"blacksmith.png",
+  "imageName3":"blacksmith3.jpg"
+
+  }, {
+  "name": "农场",
+  "imageName":"BTNInn.png",
+  "imageName3":"BTNInn3.jpg"
+  }, {
+  "name": "国王祭坛",
+   "imageName":"BTNAltarOfKings.png",
+   "imageName3":"BTNAltarOfKings3.jpg"
+
+  }, {
+  "name": "神秘圣地",
+  "imageName":"BTNArcaneSanctum.png",
+   "imageName3":"BTNArcaneSanctum3.jpg"
+   }, {
+  "name": "车间",
+   "imageName":"BTNWorkshop.png",
+  "imageName3":"BTNWorkshop3.jpg"
+  }
+  , {
+  "name": "哨塔",
+   "imageName":"BTNHumanWatchTower.png",
+  "imageName3":"BTNHumanWatchTower3.jpg"
+
+  }
+  , {
+  "name": "防御塔",
+  "imageName":"BTNGuardTower.png",
+  "imageName3":"BTNGuardTower3.jpg"
+  }
+  , {
+  "name": "炮塔",
+  "imageName":"BTNCannonTower.png",
+  "imageName3":"BTNCannonTower3.jpg"
+
+  }
+  , {
+  "name": "神秘之塔",
+  "imageName":"BTNDalaranGuardTower.png",
+   "imageName3":"BTNDalaranGuardTower3.jpg"
+
+  }
+  , {
+  "name": "狮鹫笼",
+  
+      "imageName":"BTNGryphonAviary.png",
+ 
+  
+  "imageName3":"BTNGryphonAviary3.jpg"
+
+  }, {
+  "name": "神秘藏宝室",
+
+  "imageName":"arcanevault.gif",
+  
+  "imageName3":"arcanevault3.gif"
+
+  }
+  
+  
+  
+  
+  ]

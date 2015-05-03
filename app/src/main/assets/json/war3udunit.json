@@ -1,0 +1,896 @@
+ [
+  {
+  "name": "侍僧",
+  
+  "description": "侍僧是把灵魂献给了耐奥祖的人类。无论什么事情都无法阻止这些痛苦，虚弱的男人和女人执行耐奥祖的命令。他们将目睹自己的死亡并变成不死族，以此看作是为耐奥祖服务的最佳奖励。",
+
+  
+  "level": "1",
+  "cost": "75G 1F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "中甲",
+  "armon": "0",
+  "groundAttack": "9-10",
+  "airAttack": "无",
+  "attackInterval": "2.5",
+  "life": "220",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "近战",
+  "dayView": "80",
+  "nightView": "60",
+  "speed": "慢(220)",
+  "trainingTime": "15",
+  "trainingPlace": "大墓地",
+  "requirement": "-",
+  "hotKey": "C",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "修理 Repair",
+            "skillimage": "repair.gif",
+            "skilldescription": "侍僧可以修理受损的建筑和机械单位，右键点击可以将修理设定为自动。修理需要花费黄金和木材，如果你的黄金或木材不足，那么你将无法进行修理 。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "采集 Gather",
+            "skillimage": "peasantgather.gif",
+            "skilldescription": "从金矿采集黄金或者砍树来获得木材，右键点击金矿或木材。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "召唤建筑 Summon Building",
+            "skillimage": "summon.gif",
+            "skilldescription": "",
+            "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无\n持续时间:立即 使用间隔:无 魔法消耗:75 距离:50 作用范围:20"
+            },
+            {
+            "skill": "回收 Unsummon",
+            "skillimage": "unsummon.gif",
+            "skilldescription": "将一个建筑卖掉，但只能得到建造费用的50%。",
+            "skilldetail": "当金矿枯竭时，侍僧会自动回收闹鬼金矿。"
+            },
+
+            {
+            "skill": "牺牲 Sacrifice",
+            "skillimage": "sacrifice.gif",
+            "skilldescription": "将侍僧变成一个阴影，阴影是隐形单位，可以发现隐形单位。但是阴影不可以进行攻击。(在牺牲深渊里进行)",
+            "skilldetail": ""
+            }
+            ],
+  
+  
+  "imageName3": "acolyte3.gif",
+
+  "imageName":"acolyte.gif"
+  },
+  {
+  "name": "食尸鬼",
+  
+  "description": "食尸鬼是不死军团的基本作战部队。这些笨拙，腐烂的行尸走肉曾经是无辜的人族，但后来他们却变成了真正的不死族。食尸鬼极端仇视一切生物，渴望撕扯它们的血肉之躯。并且可以通过吃尸来治愈自己的伤口。",
+
+  
+  
+  "level": "2",
+  "cost": "120G 1F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "0(6*)",
+  "groundAttack": "12-14(15-20*)",
+  "airAttack": "无",
+  "attackInterval": "1.30(1.04*)",
+  "life": "340",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "近战",
+  "dayView": "140",
+  "nightView": "80",
+  "speed": "中等270/快350",
+  "trainingTime": "18",
+  "trainingPlace": "地穴",
+  "requirement": "-",
+  "hotKey": "G",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "吃尸 Cannibalize",
+            "skillimage": "cannibalize.gif",
+            "skilldescription": "吃附近的尸体，每秒恢复10点生命，33秒吃完一具尸体。",
+            "skilldetail": "研究费用:75G 研究地点:地穴 研究时间:30秒 需求:无\n持续时间:33秒 使用间隔:25秒 作用范围:自己 使用目标:尸体"
+            },
+            {
+            "skill": "食尸鬼狂热 Ghoul Frenzy",
+            "skillimage": "ghoulfrenzy.gif",
+            "skilldescription": "增加0.25的攻击频率和80的移动速度。",
+            "skilldetail": "研究费用:100G 150L 研究地点:地穴 \n研究时间:45秒 需求:黑色城堡"
+            }
+            ],
+  "imageName3": "ghoul3.gif",
+
+  "imageName":"ghoul.gif"
+  },
+  {
+  "name": "地穴恶魔",
+  
+  "description": "地穴恶魔是具有人族和蜘蛛的双重基因的变异生物。这些残忍的恶魔曾经是统治北方大陆的古老蜘蛛王国阿祖欧-奈如伯的战士，但耐奥祖摧毁了这个王国并统治了北方大陆。现在地穴恶魔指挥着他们的小蜘蛛为耐奥祖而战。这些生物可以召唤蜘蛛和使用蛛网来对付他们的敌人。",
+
+  
+  
+  "level": "3",
+  "cost": "215G 40L 3F",
+  "unitType": "普通/地面(1)",
+  "attackType": "穿刺",
+  "weaponType": "远程",
+  "armonType": "中甲",
+  "armon": "0(6*)",
+  "groundAttack": "26-31(29-49*)",
+  "airAttack": "无",
+  "attackInterval": "2",
+  "life": "550",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "55",
+  "dayView": "140",
+  "nightView": "80",
+  "speed": "中等(270)",
+  "trainingTime": "30",
+  "trainingPlace": "地穴",
+  "requirement": "坟场",
+  "hotKey": "F",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "蛛网 Web (自动施放)",
+            "skillimage": "web.gif",
+            "skilldescription": "用网将空中单位拉到地面，使那些地面部队可以攻击它。",
+            "skilldetail": "研究费用:150G 150L 研究地点:地穴 \n研究时间:30秒 需求:坟场,亡者大厅\n持续时间:12秒 使用间隔:12秒 距离:40 作用范围:一个单位 使用目标:空中敌人"
+            },
+            {
+            "skill": "钻地 Burrow",
+            "skillimage": "cryptfiendburrow.gif",
+            "skilldescription": "可以钻入地下变为隐形，每秒恢复5点生命。",
+            "skilldetail": "研究费用:75G 75L 研究地点:坟场,亡者大厅 \n研究时间:45秒 需求:坟场,亡者大厅\n持续时间:无限 使用间隔:- 使用目标:自己 作用范围:自己"
+            }
+            ],
+  
+  
+  "imageName3": "cryptfiend3.gif",
+
+  "imageName":"cryptfiend.gif"
+  },
+  {
+  "name": "石像鬼",
+  
+  "description": "这些邪恶的石像鬼是天生的杀戮者，并且一直跟随巫妖王的军队参加战斗。石像鬼有坚硬的表皮保护他们免受敌人攻击，并且可以降落到地上伪装成一块石头。虽然当他伪装时无法攻击，但可以快速恢复生命。",
+
+  
+  
+  "level": "2",
+  "cost": "185G 30L 2F",
+  "unitType": "普通/地面(1)",
+  "attackType": "穿刺/普通",
+  "weaponType": "远程/普通",
+  "armonType": "无甲",
+  "armon": "3(9*)，15(21*)",
+  "groundAttack": "18-21(21-33*)",
+  "airAttack": "61-70(64-100*)",
+  "attackInterval": "2.2/1.4",
+  "life": "410",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "30/近战",
+  "dayView": "140",
+  "nightView": "80",
+  "speed": "快(350)",
+  "trainingTime": "35",
+  "trainingPlace": "地穴",
+  "requirement": "坟场、王者大厅",
+  "hotKey": "A",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "石像形态 Stone Form",
+            "skillimage": "stoneform.gif",
+            "skilldescription": "转换石像鬼形态，魔法免疫，增加12点护甲，恢复每秒8点生命，不过在这个状态下不能攻击。(升级快捷键S)",
+            "skilldetail": "研究费用:75G 150L 研究地点:地穴\n研究时间:40秒 需求:无\n持续时间:无限 使用间隔:30秒 使用目标:自己"
+            }
+            ],
+  
+  
+  "imageName3": "gargoyle3.gif",
+
+  "imageName":"gargoyle.gif"
+  },
+  {
+  "name": "亡灵巫师",
+  
+  "description": "虽然保留着一些人族的特征，但这些于死神定下契约的不死族巫师是不折不扣的灾难代言人。这些黑暗，邪恶的人族曾经被认为是达拉然的天才法师，但他们渴求黑暗魔法的欲望最终毁灭了他们的灵魂。巫妖王耐奥祖赐于他们超越死亡的力量以换取他们的忠诚。这些不死族的巫师可以从墓地复活骷髅战士，并用黑暗法术提高不死族战士们的作战能力。",
+
+  
+  
+  "level": "2",
+  "cost": "145G 20L 2F",
+  "unitType": "普通/地面(2)",
+  "attackType": "魔法",
+  "weaponType": "远程",
+  "armonType": "无甲",
+  "armon": "0",
+  "groundAttack": "8-9",
+  "airAttack": "8-9",
+  "attackInterval": "1.8",
+  "life": "305(385*)",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "200(400*)",
+  "manaRecovery": "0.667(1.667)",
+  "attackRange": "600",
+  "dayView": "60",
+  "nightView": "140",
+  "speed": "中等(270)",
+  "trainingTime": "24",
+  "trainingPlace": "诅咒神庙",
+  "requirement": "无",
+  "hotKey": "N",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "复活死尸 Raise Dead",
+            "skillimage": "skeletonwarrior.gif",
+            "skilldescription": "从一具尸体上召唤出2个骷髅战士。",
+            "skilldetail": "持续时间:40秒 使用间隔:8秒 魔法消耗:75\n距离:60 作用范围:- 使用目标:尸体"
+            },
+            {
+            "skill": "邪恶狂热 Unholy Frenzy",
+            "skillimage": "unholyfrenzy.gif",
+            "skilldescription": "增加单位攻击频率75%，并以4点每秒的速度流失生命，持续时间45秒。",
+            "skilldetail": "持续时间:45秒 使用间隔:1秒 \n魔法消耗:50 距离:50 作用范围:一个单位 使用目标:空中、地面、有机"
+            },
+            {
+            "skill": "残废 Cripple",
+            "skillimage": "cripple.gif",
+            "skilldescription": "减少目标单位移动速度75%，攻击频率50%和50%的攻击力。",
+            "skilldetail": "持续时间:60(10)秒 使用间隔:10秒 \n魔法消耗:175 距离:60 作用范围:一个单位 使用目标:空中、地面、有机"
+            },
+            {
+            "skill": "骨质增强术 Skeletal Longevity",
+            "skillimage": "skeletallongevity.gif",
+            "skilldescription": "将骷髅战士的存在时间增加15秒 。",
+            "skilldetail": "研究费用:50G 75L 研究地点:诅咒神庙\n研究时间:15秒 需求:无"
+            },
+
+            {
+            "skill": "骷髅掌控 Skeletal Mastery",
+            "skillimage": "skeletalmasterylarge.gif",
+            "skilldescription": "从一具尸体上召唤出一个骷髅战士和一个骷髅法师。",
+            "skilldetail": "研究费用:125G 175L 研究地点:诅咒神庙\n研究时间:30秒 需求:黑色城堡"
+            },
+
+            {
+            "skill": "专家级亡灵巫师训练 Necromancer Adept Training",
+            "skillimage": "necromanceradept.gif",
+            "skilldescription": "增加100点魔法，加快30%魔法恢复速度，增加40点生命和可以使用邪恶狂热。",
+            "skilldetail": "研究费用:100G 50L 研究地点:诅咒神庙\n研究时间:30秒 需求:无"
+            },
+
+            {
+            "skill": "大师级亡灵巫师训练 Necromancer Master Training",
+            "skillimage": "necromancermaster.gif",
+            "skilldescription": "增加100点魔法，加快30%魔法恢复速度，增加40点生命和可以使用残废。",
+            "skilldetail": "研究费用:100G 150L 研究地点:诅咒神庙\n研究时间:45秒 需求:黑色城堡"
+            }
+            
+            ],
+  
+  
+  "imageName3": "necromancer3.gif",
+
+  "imageName":"necromancer.gif"
+  },
+  {
+  "name": "女妖",
+  
+  "description": "女妖曾经是美丽的精灵女性，在卡利姆多大陆沦陷的时候她们被恶魔残忍的杀害了。这些死不瞑目的灵魂依然无声的停留在这个世界上，痛苦的哀号着。随着时间的推移，她们开始嫉妒所有的活物并对他们产生了深深的仇恨。耐奥祖赐于她们可怕的嗓音，在活物听来无比凄惨、永不停息的嚎叫。女妖成为了不死军团的战士，在战场上使用凄历的哀号产生的力量攻击敌人。",
+
+  
+  
+  "level": "2",
+  "cost": "155G 30L 2F",
+  "unitType": "普通/地面(1)",
+  "attackType": "魔法",
+  "weaponType": "远程",
+  "armonType": "无甲",
+  "armon": "0",
+  "groundAttack": "9-13",
+  "airAttack": "9-13",
+  "attackInterval": "1.5",
+  "life": "285(365*)",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "200(400*)",
+  "manaRecovery": "0.667(1.167*)",
+  "attackRange": "60",
+  "dayView": "140",
+  "nightView": "80",
+  "speed": "中等(270)",
+  "trainingTime": "28",
+  "trainingPlace": "诅咒神庙",
+  "requirement": "无",
+  "hotKey": "B",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "诅咒 Curse",
+            "skillimage": "curse.gif",
+            "skilldescription": "诅咒一个敌方单位，使其在攻击时有33%的机率攻击失误。",
+            "skilldetail": "持续时间:120(60)秒 使用间隔:1秒 魔法消耗:40\n距离:70 作用范围:- 使用目标:空中、地面、敌人、有机"
+            },
+            {
+            "skill": "反魔法盾 Anti-magic Shell",
+            "skillimage": "antimagicshell.gif",
+            "skilldescription": "在目标单位身上创造一个魔法外壳，可以吸收大量魔法伤害。",
+            "skilldetail": "持续时间:90秒 使用间隔:- \n魔法消耗:75 距离:50 作用范围:一个单位"
+            },
+            {
+            "skill": "占据 Possession",
+            "skillimage": "possession.gif",
+            "skilldescription": "该技能使用时，会先让目标单位无法行动4秒，在这段时间中，女妖将受到额外的伤害。然后女妖就会消失同时占据这个单位，但不损害这个单位。占据无法对空军、英雄和5级以上的单位使用。",
+            "skilldetail": "持续时间:- 使用间隔:- 魔法消耗:250 距离:35 作用范围:一个单位"
+            },
+            {
+            "skill": "专家级女妖训练 Banshee Adept Training",
+            "skillimage": "bansheeadept.gif",
+            "skilldescription": "增加100点魔法，加快30%魔法恢复速度，增加40点生命和可以使用反魔法盾。",
+            "skilldetail": "研究费用:100G 50L 研究地点:诅咒神庙\n研究时间:60秒 需求:无"
+            },
+            {
+            "skill": "大师级女妖训练 Banshee Master Training",
+            "skillimage": "bansheemaster.gif",
+            "skilldescription": "增加100点魔法，加快30%魔法恢复速度，增加40点生命和可以使用占据。",
+            "skilldetail": "研究费用:100G 150L 研究地点:诅咒神庙\n研究时间:75秒 需求:黑色城堡"
+            }
+            ],
+  
+  
+  "imageName3": "banshee3.gif",
+
+  "imageName":"banshee.gif"
+  
+  
+  },
+  {
+  "name": "绞肉车",
+  
+  "description": "不死军中最令人胆寒的武器就是恐怖的绞肉车，这种机器用来收集和存放近来被杀的人的尸体。尸体可以被扔进绞肉车里制造出不死战士。绞肉车还可以作为攻城武器来使用，作为不死军团中的强力武器，它令敌人闻风丧胆。",
+
+  
+  "level": "2",
+  "cost": "230G 50L 4F",
+  "unitType": "机械/地面(2)",
+  "attackType": "攻城",
+  "weaponType": "火炮",
+  "armonType": "重甲",
+  "armon": "2",
+  "groundAttack": "71-88(74-142*)",
+  "airAttack": "无",
+  "attackInterval": "4",
+  "life": "380",
+  "lifeRecovery": "无",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "25-115",
+  "dayView": "140",
+  "nightView": "120",
+  "speed": "慢(220)",
+  "trainingTime": "45",
+  "trainingPlace": "屠宰场",
+  "requirement": "无",
+  "hotKey": "M",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "收集尸体 Get Corpse",
+            "skillimage": "pickupcorpse.gif",
+            "skilldescription": "收集附近的尸体。",
+            "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无\n持续时间:立即 使用间隔:无 魔法消耗:75 距离:50 作用范围:20"
+            },
+            {
+            "skill": "卸下尸体 Drop All Corpses",
+            "skillimage": "dropcorpse.gif",
+            "skilldescription": "将绞肉车上的尸体都放出来。",
+            "skilldetail": "持续时间:立即 使用间隔:- \n魔法消耗:75 距离:50 作用范围:20"
+            },
+            {
+            "skill": "疾病云雾 Disease Cloud Aura",
+            "skillimage": "plaguecloud.gif",
+            "skilldescription": "让憎恶散发携带疾病的云雾，绞肉车在攻击时也可以施放疾病云雾，被感染的单位将会每秒损失1点生命，持续120秒。不死单位对疾病云雾免疫。",
+            "skilldetail": "研究费用:100G 200L 研究地点:屠宰场 \n研究时间:45秒 需求:黑色城堡"
+            },
+            {
+            "skill": "挖掘尸体 Exhume Corpses",
+            "skillimage": "exhumecorpses.gif",
+            "skilldescription": "每15秒让绞肉车自动挖掘出1具尸体。",
+            "skilldetail": "研究费用:75G 50L 研究地点:屠宰场\n研究时间:20秒 需求:亡者大厅"
+            }
+            ],
+  
+  
+  "imageName3": "meatwagon3.gif",
+
+  "imageName":"meatwagon.gif"
+  },
+  {
+  "name": "憎恶",
+  
+  "description": "憎恶是由许多支离破碎的尸体组合而成的。这些肮脏的怪物喜欢撕裂它们的敌人。行动缓慢的憎恶不断的流出血液并发出另人作呕的恶臭，手持巨大的铁钩和镰刀走向战场。",
+
+  
+  
+  "level": "4",
+  "cost": "240G 70L 4F",
+  "unitType": "普通/地面(1)",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "2(8*)",
+  "groundAttack": "33-39",
+  "airAttack": "无",
+  "attackInterval": "1.9",
+  "life": "1175",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "近战",
+  "dayView": "140",
+  "nightView": "80",
+  "speed": "中等(270)",
+  "trainingTime": "44",
+  "trainingPlace": "屠宰场",
+  "requirement": "黑色城堡",
+  "hotKey": "A",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "吃尸 Cannibalize",
+            "skillimage": "cannibalize.gif",
+            "skilldescription": "吃附近的尸体，每秒恢复15点生命，33秒吃完一具尸体。",
+            "skilldetail": "研究费用:100G 50L 研究地点:神秘圣地 \n研究时间:60秒 需求:无\n持续时间:立即 使用间隔:无 魔法消耗:75 距离:50 作用范围:20"
+            },
+            {
+            "skill": "疾病云雾 Disease Cloud Aura",
+            "skillimage": "plaguecloud.gif",
+            "skilldescription": "让憎恶散发携带疾病的云雾，绞肉车在攻击时也可以施放疾病云雾，被感染的单位将会每秒损失1点生命，持续120秒。不死单位对疾病云雾免疫。",
+            "skilldetail": "研究费用:100G 200L 研究地点:屠宰场\n研究时间:45秒 需求:黑色城堡"
+            }
+            ],
+  
+  
+  "imageName3": "abomination3.gif",
+
+  "imageName":"abomination.gif"
+  },
+  {
+  "name": "黑曜石雕像",
+  
+  
+  "description": "黑曜石雕像可以恢复附近友军的生命和魔法，也可以变为毁灭者形态。他们被看成是耐奥祖伟大力量的象征。经常处于战斗的前线引起敌人的恐慌。对于这种深不可测,变化多端的黑曜石雕像，似乎任何敌人对它都会显得不知所措。",
+
+  
+  
+  "level": "2",
+  "cost": "200G 35L 3F",
+  "unitType": "机械/地面(1)",
+  "attackType": "魔法",
+  "weaponType": "远程",
+  "armonType": "重甲",
+  "armon": "4",
+  "groundAttack": "7-8",
+  "airAttack": "7-8",
+  "attackInterval": "2.1",
+  "life": "550",
+  "lifeRecovery": "总是",
+  "mana": "600",
+  "manaRecovery": "1.5",
+  "attackRange": "57.5",
+  "dayView": "120",
+  "nightView": "80",
+  "speed": "中等(270)",
+  "trainingTime": "35",
+  "trainingPlace": "屠宰场",
+  "requirement": "古墓废墟",
+  "hotKey": "O",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "枯萎精髓 Essence of Blight",
+            "skillimage": "replenishlife.gif",
+            "skilldescription": "恢复附近的我方单位10点生命。",
+            "skilldetail": "持续时间:1秒 使用间隔:1秒 \n魔法消耗:最大10 使用范围:60 使用目标:友军单位"
+            },
+            {
+            "skill": "灵魂之触 Spirit Touch",
+            "skillimage": "replenishmana.gif",
+            "skilldescription": "恢复附近的友军少量魔法。",
+            "skilldetail": "持续时间:1秒 使用间隔:1秒\n魔法消耗:最大10 使用范围:60 使用目标:友军单位"
+            },
+            {
+            "skill": "毁灭者 Morph into Destroyer",
+            "skillimage": "destroyer.gif",
+            "skilldescription": "变为毁灭者，一个大型的空中魔法单位。(升级快捷键X)",
+            "skilldetail": "研究费用:75G 150L 研究地点:屠宰场\n研究时间:60秒 需求:黑色城堡，古墓废墟"
+            }
+            ],
+  
+  
+  "imageName3": "obsidianstatue3.gif",
+
+  "imageName":"obsidianstatue.gif"
+  },
+  {
+  "name": "毁灭者",
+  
+  
+  "description": "大型飞行单位，必须通过吸收魔法，才能够支持他的魔法消耗。从黑曜石像形态中解放出来后，这些怪异的生物能疯狂的汲取自己人的魔法能量。",
+
+  
+  "level": "5",
+  "cost": "100G 50L 5F",
+  "unitType": "普通/空中",
+  "attackType": "魔法",
+  "weaponType": "远程",
+  "armonType": "轻甲",
+  "armon": "3(9*)",
+  "groundAttack": "19-21(22-30*)",
+  "airAttack": "19-21(22-30*)",
+  "attackInterval": "1.35",
+  "life": "900",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "400",
+  "manaRecovery": "-3",
+  "attackRange": "45",
+  "dayView": "140",
+  "nightView": "100",
+  "speed": "中等(320)",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "毁灭者",
+  "hotKey": "T",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "吞噬魔法 Devour Magic",
+            "skillimage": "devourmagic.gif",
+            "skilldescription": "吞噬掉一定范围内的所有魔法效果，每个单位上的魔法效果将被转换为毁灭者50点生命和75点魔法。并对召唤生物造成180点伤害。",
+            "skilldetail": "持续时间:立即 使用间隔:7秒 魔法消耗:- \n距离:60 作用范围:20 使用目标:空中、地面、守卫"
+            },
+            {
+            "skill": "毁灭之球 Orb of Annihilation",
+            "skillimage": "orbofannihilation.gif",
+            "skilldescription": "在毁灭者攻击时添加20点伤害，并造成溅射伤害。",
+            "skilldetail": "持续时间:立即 使用间隔:- \n魔法消耗:25 作用范围:15"
+            },
+            {
+            "skill": "魔法免疫 Spell Immunity",
+            "skillimage": "animalwartraining.gif",
+            "skilldescription": "对负面魔法免疫。",
+            "skilldetail": ""
+            },
+            {
+            "skill": "魔法吸收 Absrob Mana",
+            "skillimage": "genericspellimmunity.gif",
+            "skilldescription": "从附近的友军身上吸取全部魔法给毁灭者使用。",
+            "skilldetail": "距离:90 作用范围:一个单位\n使用目标:空中、地面、友军"
+            }
+            ],
+  
+  
+  "imageName3": "destroyer3.gif",
+
+  "imageName":"destroyer.gif"
+  
+  },
+  {
+  "name": "阴影",
+  
+  "description": "阴影是侍僧在牺牲祭坛牺牲后变成的。阴影是隐形的，并可以发现隐形单位但无法攻击。",
+
+  "level": "1",
+  "cost": "1F",
+  "unitType": "普通/地面(1)",
+  "attackType": "-",
+  "weaponType": "-",
+  "armonType": "-",
+  "armon": "0",
+  "groundAttack": "-",
+  "airAttack": "-",
+  "attackInterval": "-",
+  "life": "125",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "-",
+  "manaRecovery": "-",
+  "attackRange": "-",
+  "dayView": "190",
+  "nightView": "80",
+  "speed": "快(350)",
+  "trainingTime": "15",
+  "trainingPlace": "牺牲祭坛",
+  "requirement": "-",
+  "hotKey": "C",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "真实视域 True Sight",
+            "skillimage": "udtruesight.gif",
+            "skilldescription": "发现附近的隐形单位。",
+            "skilldetail": ""
+            }
+            ],
+  "imageName3": "shade3.gif",
+
+  "imageName":"sacrifice.gif"
+
+  },
+  
+  {
+  "name": "冰霜巨龙",
+  
+  "description": "在远古时期，龙在生命将尽时都会飞到北方寒冷的诺森德大陆去等死。天长日久，那里成了巨龙的坟墓，无数巨龙的骨骸散布在大陆上。当巫妖之王耐奥祖控制了诺森德大陆后，他使用强大的魔法复活了死去巨龙的尸骨。现在,这些浑身散发这冰冷力量的巨龙一心一意地为它们黑暗的主人服务。冰龙拥有寒冷无比的喷吐武器，可以冻僵空中和地面的敌人。",
+
+  
+  
+  "level": "6",
+  "cost": "385G 120L 7F",
+  "unitType": "普通/空中",
+  "attackType": "魔法",
+  "weaponType": "远程溅射",
+  "armonType": "轻甲",
+  "armon": "1(7*)",
+  "groundAttack": "93-115(96-151*)",
+  "airAttack": "84-94(87-127*)",
+  "attackInterval": "3",
+  "life": "1350",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "-",
+  "manaRecovery": "-",
+  "attackRange": "300",
+  "dayView": "1600",
+  "nightView": "80",
+  "speed": "中等(270)",
+  "trainingTime": "-",
+  "trainingPlace": "埋骨地",
+  "requirement": "-",
+  "hotKey": "F",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "冰冻喷吐 Freezing Breath",
+            "skillimage": "freezingbreath2.gif",
+            "skilldescription": "当攻击建筑时，会停止该建筑一切活动。",
+            "skilldetail": "研究费用:150G 275L 研究地点:埋骨地\n研究时间:60秒 需求:无\n持续时间:5秒 使用间隔:- 魔法消耗:- 距离:- 使用目标:敌人、建筑"
+            }
+            ],
+  
+  
+  "imageName3": "frostwyrm3.gif",
+
+  "imageName":"frostwyrm.gif"
+
+  }
+  
+  ,
+  {
+  "name": "地狱火",
+  
+  
+  "description": "由恐惧魔王召唤来的强大战士。",
+  
+  
+  
+  "level": "8",
+  "cost": "-",
+  "unitType": "召唤",
+  "attackType": "混乱",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "6",
+  "groundAttack": "49-60",
+  "airAttack": "无",
+  "attackInterval": "1.35",
+  "life": "1500",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "-",
+  "manaRecovery": "-",
+  "attackRange": "-",
+  "dayView": "140",
+  "nightView": "80",
+  "speed": "快(320)",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "恐惧魔王",
+  "hotKey": "N",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "真实视域 True Sight",
+            "skillimage": "udtruesight.gif",
+            "skilldescription": "发现附近的隐形单位。",
+            "skilldetail": ""
+            }
+            ],
+  "imageName3": "infernal3.gif",
+
+  "imageName":"infernal.gif"
+
+},
+  
+  {
+  "name": "腐尸甲虫",
+  
+  
+  "description": "这些凶恶的甲虫能用自己锋利的牙齿来攻击地穴领主的敌人。较高等级魔法下召唤的这种生物能够钻入地下，不被敌军发现。当他钻地后，他就不能发起攻击，但是同时能起到很好的侦察效果。和其他大多数的召唤单位不同，腐尸甲虫是没有时间限制的。能攻击地面单位。",
+  
+  
+  
+  "level": "1/2/3",
+  "cost": "-",
+  "unitType": "召唤",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "2",
+  "groundAttack": "8-9/15-18/22-27",
+  "airAttack": "无",
+  "attackInterval": "1.5",
+  "life": "140/275/410",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "-",
+  "manaRecovery": "-",
+  "attackRange": "-",
+  "dayView": "120",
+  "nightView": "80",
+  "speed": "中等(270)",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "地穴领主",
+  "hotKey": "C",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "钻地 Burrow",
+            "skillimage": "udtruesight.gif",
+            "skilldescription": "2级和3级的腐尸甲虫可以钻入地下变为隐形。",
+            "skilldetail": ""
+            }
+            ],
+  
+  "imageName3": "carrionbeetle3.gif",
+  
+  "imageName":"carrionbeetles.gif"
+  
+  },
+{
+  "name": "骷髅战士",
+  
+  
+  "description": "骷髅战士是亡灵巫师召唤出的近战召唤单位。",
+  
+  
+  
+  "level": "1",
+  "cost": "40(55*)秒",
+  "unitType": "召唤/地面(1)",
+  "attackType": "普通",
+  "weaponType": "普通",
+  "armonType": "重甲",
+  "armon": "1(7*)",
+  "groundAttack": "14-15(17-21*)",
+  "airAttack": "-",
+  "attackInterval": "2",
+  "life": "180",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "80",
+  "dayView": "80",
+  "nightView": "60",
+  "speed": "中等(270)",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "亡灵法师",
+  "hotKey": "R",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "骨质增强术 Skeletal Longevity",
+            "skillimage": "skeletalmasterylarge.gif",
+            "skilldescription": "将骷髅战士的存在时间增加15秒 。",
+            "skilldetail": "研究费用:50G 75L 研究地点:诅咒神庙\n研究时间:15秒 需求:无"
+            }
+            ],
+  
+  
+  "imageName3": "skeleton3.gif",
+
+  "imageName":"skeletonwarrior.gif"
+
+  },
+  
+  
+  {
+  "name": "骷髅法师",
+
+  "description": "亡灵法师召唤的骷髅法师。",
+  
+  "level": "1",
+  "cost": "40(55*)秒",
+  "unitType": "普通/地面(1)",
+  "attackType": "穿刺",
+  "weaponType": "远程",
+  "armonType": "中甲",
+  "armon": "0(6*)",
+  "groundAttack": "11-12(14-18*)",
+  "airAttack": "11-12(14-18*)",
+  "attackInterval": "1.5",
+  "life": "230",
+  "lifeRecovery": "荒芜之地上",
+  "mana": "无",
+  "manaRecovery": "-",
+  "attackRange": "50",
+  "dayView": "140",
+  "nightView": "90",
+  "speed": "中等(270)",
+  "trainingTime": "-",
+  "trainingPlace": "-",
+  "requirement": "亡灵法师、\n骷髅掌控",
+  "hotKey": "-",
+  "skillstart": "2",
+  
+  
+  "skill": [
+            {
+            "skill": "骨质增强术 Skeletal Longevity",
+            "skillimage": "skeletallongevity.gif",
+            "skilldescription": "将骷髅法师的存在时间增加15秒 。",
+            "skilldetail": "研究费用:50G 75L 研究地点:诅咒神庙\n研究时间:15秒 需求:无"
+            }
+            ],
+  "imageName3":"skeletalmage3.gif",
+  "imageName":"skeletalmasterylarge.gif"
+  }
+  
+  ]
